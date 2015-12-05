@@ -5,7 +5,7 @@ def addZipCodes(importdirectory,exportdirectory) :
     import numpy as np
     import pandas as pd
 
-    zipCodesDirectory=pd.read_csv('zip_code_database.csv', low_memory=False)
+    zipCodesDirectory=pd.read_csv('addZipCodes/zip_code_database.csv', low_memory=False)
     zipCodesDirectory=zipCodesDirectory[['zip','county','state']]
 
     toConvert=pd.read_csv(importdirectory, low_memory=False)
@@ -13,7 +13,7 @@ def addZipCodes(importdirectory,exportdirectory) :
     countyNames=[county.split(', ')[0] for county in toConvert['GEO.display-label']]
     stateNames=[county.split(', ')[-1] for county in toConvert['GEO.display-label']]
     
-    with open('states-abbrev.json', 'r') as fp:
+    with open('addZipCodes/states-abbrev.json', 'r') as fp:
         statesAbbrev = json.load(fp)
         
     abbrevStateNames = [statesAbbrev[state] if state in statesAbbrev.keys() else '' for state in stateNames]
