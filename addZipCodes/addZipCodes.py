@@ -20,7 +20,7 @@ def addZipCodes(importdirectory,exportdirectory) :
     toConvert['county']=countyNames
     toConvert['state']=abbrevStateNames
 
-    DBwithzips = pd.merge(sample, zipCodesDirectory, on=['county','state'])
+    DBwithzips = pd.merge(toConvert, zipCodesDirectory, on=['county','state'])
     DBwithzips.to_csv(exportdirectory)
     
     return True
