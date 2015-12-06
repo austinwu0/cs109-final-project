@@ -1,4 +1,17 @@
 def addZipCodes(importdirectory,exportdirectory) :
+
+    """Assigns relevant zip codes to data that is coded at the county level only.
+
+    Parameters:
+    -----------
+    importdirectory : .csv directory of df to convert (counties only)
+    exportdirectory : .csv directory of converted df (with zip codes) 
+
+    Returns:
+    --------
+    True : if successful
+
+    """
     
     import json
     import csv
