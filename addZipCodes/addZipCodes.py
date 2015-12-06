@@ -34,6 +34,8 @@ def addZipCodes(importdirectory,exportdirectory) :
     toConvert['state']=abbrevStateNames
 
     DBwithzips = pd.merge(toConvert, zipCodesDirectory, on=['county','state'])
+    DBwithzips['zip'] = DBwithzips['zip'].astype(str)
+
     DBwithzips.to_csv(exportdirectory)
     
     return True
