@@ -1,4 +1,17 @@
 def addZipCodes(importdirectory,exportdirectory) :
+
+    """Assigns relevant zip codes to data that is coded at the county level only.
+
+    Parameters:
+    -----------
+    importdirectory : .csv directory of df to convert (counties only)
+    exportdirectory : .csv directory of converted df (with zip codes) 
+
+    Returns:
+    --------
+    True : if successful
+
+    """
     
     import json
     import csv
@@ -21,6 +34,8 @@ def addZipCodes(importdirectory,exportdirectory) :
     toConvert['state']=abbrevStateNames
 
     DBwithzips = pd.merge(toConvert, zipCodesDirectory, on=['county','state'])
+    DBwithzips['zip'] = DBwithzips['zip'].astype(str)
+
     DBwithzips.to_csv(exportdirectory)
     
     return True
