@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>CS171 Final Project</title>
+
+    <!-- ADD Libraries-->
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://d3js.org/topojson.v1.min.js"></script>
+    <script src="http://d3js.org/queue.v1.min.js"></script>
+    <script src="libs/jquery/jquery-2.1.1.min.js" charset="utf-8"></script>
+    <script src="libs/bootstrap/js/bootstrap.min.js" charset="utf-8"></script>
+    <script src="dm/dist/datamaps.world.min.js"></script>
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+
+    <!--Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="libs/bootstrap/css/bootstrap.min.css">
+
+    <!-- Get some nice font-->
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- add own stylesheet-->
+    <link rel="stylesheet" type="text/css" href="css/myStyle.css">
+
+    <!-- add own scripts-->
+    <script src = "js/worldvis.js"></script>
+    <script src = "js/countryvis_usage.js"></script>
+    <script src = "js/countryvis_compare.js"></script>
+    <script src = "js/circlevis.js"></script>
+    <script src = "js/temperaturevis.js"></script>
+    <script src = "js/sectorvis.js"></script>
+
+</head>
+<body>
+    <!--beginning of chapter one-->
+
+    <div class="back">
+      <div class="navbar">
+          <ul>
+            <li><a href="index.html" id="nav">BACKGROUND</a></li>
+            <li><a href="visualization.html#chapter_one" id="nav2">VISUALIZATION</a></li>
+            <li><a href="https://github.com/azhong1/cs171-smith-zhong-finalproject" id="nav3">GIT</a></li>
+            <li><a href="https://docs.google.com/document/d/1CMFDlRChkY_jYVbcKnQ7r_KYUoOQrEGPPxC4wvye3mQ" id="nav5">PROCESS BOOK</a></li>
+            <li><a href="http://youtu.be/zex2eVBCnZ4" id="nav4">VIDEO</a></li>
+          </ul>
+        </div>
+      <div class="container" >
+      <a name="chapter_one" id="chapter_one"></a>
+        <p class="history_title_top">A HISTORY OF CARBON EMISSIONS AND ENERGY CONSUMPTION</p>
+        <div class="row">
+        </div>
+        
+
+        <div class="row">
+            <div class="col-md-12" id="worldVis">
+              <div class ="tooltip_bubbles"></div>
+            </div>
+
+        </div>
+            <div id="countVis">
+              <img src="images/legend_new.png" class="legend" id="legend">
+              <!--<img src="images/legend_2.png" class="legend" id="legend2">-->
+            </div>
+    </div>
+  </div>
+  <div id="sankey">
+    <div class="container" >
+        <div id="sectorVis">
+          <p class="history_title">WHERE EXACTLY ARE OUR CARBON EMISSIONS FROM?</p>
+          <p class="sector_text"><strong>United States Carbon Emissions and Energy Consumption per Sector, 2011.</strong></p>
+          <p class="sector_legend">*Weights on mouseover refer to the total percentage of primary energy going into the target node.</p>
+        </div>
+        <div id="sankey_basic" style="height: 400px;"></div>
+        <div class="sector_explain">Primary energy refers to energy before transformation to other end-use fuels. "This is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international transport." - World Bank 2014.</div>
+    </div>
+  </div>
+
+  <script>
+//console.log("hello");
+        
+        sankey();
+      
+        //to fade things in
+        var fs = 1000;
+        var fs_2 = 0;
+
+        $("#back").fadeIn(fs);
+        
+        // this function is called after the HTML document is fully loaded
+        $(function(){ 
+            
+            // variables keeping global knowledge of the data
+            var co2Data = [];
+
+            var engData = [];
+
+            var sectorData;
+
+            // see: https://github.com/mbostock/d3/wiki/Time-Formatting
+            var dateFormatter = d3.time.format("%Y-%m-%d");
+            // call this function after Data is loaded, reformatted and bound to the variables
+            var initVis = function(){
+
+
+                //Create Event Handler
+                var MyEventHandler = new Object();
+
+                //Instantiate Vis Objects
+                
+                var count_usage_vis = new CountryUVis(d3.select("#countVis"), engData);
+                var count_comp_vis = new CountryPVis(d3.select("#countVis"), co2Data);
+                var world_vis = new WorldVis(d3.select("#worldVis"), co2Data, MyEventHandler);  
+                //var circle_vis = new CircleVis(d3.select("#circleVis"), co2Data);
+                //var sector_vis = new SectorVis(d3.select("#sectorVis"), sectorData);
+
+
+                console.log(co2Data);
+
+                // Bind the eventHandler to the Vis Objects
+                $(MyEventHandler).bind("selectionChanged", function(event, selection){
+
+                    world_vis.onSelectionChange(selection);
+                    count_usage_vis.onSelectionChange(selection);
+                    count_comp_vis.onSelectionChange(selection);
+
+                })
+
+                //d3.select("input[value=\"gdp\"]").on("click", new WorldVis(d3.select("#worldVis"), co2Data, MyEventHandler) );
+                var button_gdp = document.getElementById("gdpBtn");
+                button_gdp.addEventListener("click", function() { 
+                  world_vis.wrangleData_gdp();  
+                });
+
+                var button_pop = document.getElementById("popBtn");
+                button_pop.addEventListener("click", function() { 
+                  world_vis.wrangleData_pop();  
+                });
+
+                var button_forest = document.getElementById("forestBtn");
+                button_forest.addEventListener("click", function() { 
+                  world_vis.wrangleData_forest();  
+                });
+
+
+            }
+
+
+
+            // call this function after both files are loaded -- error should be "null" if no error
+            var dataLoaded = function (error, _data, _gdpdata, _popdata, _longlat, _totaldata, _altdata, _combdata, _fordata, _metadata, _sectordata) {
+                if (!error) {
+
+                //Function to wrangle raw data 
+                function flatData (data){
+
+                      var clean = []
+                      
+                      sectorData = _sectordata;
+
+                      data.Root.data.record.forEach(function(d){
+                        if("__text" in d.field[3]){
+                        var country_name = d.field[0]["__text"]
+                        var country_id = d.field[0]["_key"]
+                        var year = d.field[2]["__text"]
+                        var par = d.field[3]["__text"]
+
+
+                        clean.push({
+                            "name": country_name,
+                            "year": year,
+                            "param" : par,
+                            "country_id": country_id
+
+                        })
+                        }})
+                      return clean
+                     }
+                    
+                    //Flattened Versions of each dataset
+                    var clean_co2 = flatData(_data)
+                    var clean_gdp = flatData(_gdpdata)
+                    var clean_pop = flatData(_popdata)
+                    var clean_for = flatData(_fordata)
+                    var clean_eng = flatData(_totaldata)
+                    var clean_alt = flatData(_altdata)
+                    var clean_comb = flatData(_combdata)
+
+                    
+                    //Condense gdp, co2, forest area and population datasets
+                    var c_array = []
+                    var id_array = []
+
+                        clean_co2.forEach(function(d){
+                          if (c_array.indexOf(d.name) == -1){
+                            c_array.push(d.name)
+                            id_array.push(d.country_id)
+                          }
+                        })
+
+                        var cleanest_data = []
+
+                        var scale = d3.scale.ordinal()
+
+                        scale.domain(d3.range(1960, 2013))
+                        scale.range(d3.range(0, 54))
+
+
+                        //create object for each country
+                        c_array.forEach(function(d, i){ 
+
+                        var region = null
+                        var income_group = null 
+
+
+                        //Extract country metadata, if it exists
+                        _metadata.forEach(function(m){
+                          if (m.Code == id_array[i]){
+                            income_group = m["Income Group"]
+                            region = m["Region"]
+                          }
+                        })
+
+                        //create empty arrays to contain gdp, population, and emissions values for each year
+                        var emptyarray = d3.range(53).map(function () {return -1;})
+                        var emptyarray2 = d3.range(53).map(function () {return -1; })
+                        var emptyarray3 = d3.range(53).map(function () {return -1; })
+                        var emptyarray4 = d3.range(53).map(function () {return -1; })
+
+               
+                         //extract latitute and logitude data
+                         var lon = -1
+                         var lat = -1
+                         _longlat.data.forEach(function(d){
+                          if (d[10] == id_array[i]){
+                            lon = d[13]
+                            lat = d[12]
+                          }
+                         });
+
+                          cleanest_data.push({
+                            "name": d,
+                            "country_id": id_array[i],
+                            "region": region,
+                            "income_group": income_group,
+                            "years": emptyarray,
+                             "gdp": emptyarray2,
+                             "pop": emptyarray3,
+                             "forest" : emptyarray4,
+                            "longitude": lon,
+                            "latitude": lat
+                          })
+                        });
+
+                        //Fill values for co2 in each country object, for each year                      
+                        clean_co2.forEach(function(d){
+                          for (var i = 0; i < cleanest_data.length ; i++){
+                            if (cleanest_data[i].name == d.name){
+                              cleanest_data[i].years[scale(d.year)] = d.param
+                            }
+                          }
+                        })
+
+                        //Fill values for gdp in each country object, for each year                      
+                        clean_gdp.forEach(function(d){
+                          for (var i = 0; i < cleanest_data.length ; i++){
+                            if (cleanest_data[i].name == d.name){
+                              cleanest_data[i]["gdp"][scale(d.year)] = d.param
+                            }
+                          }
+                        })
+
+                        //Fill values for population in each country object, for each year                      
+                        clean_pop.forEach(function(d){
+                          for (var i = 0; i < cleanest_data.length ; i++){
+                            if (cleanest_data[i].name == d.name){
+                              cleanest_data[i]["pop"][scale(d.year)] = d.param
+                            }
+                          }
+                        })
+                        
+                        //Fill values for forest area in each country object, for each year
+                        clean_for.forEach(function(d){
+                          for (var i = 0; i < cleanest_data.length ; i++){
+                            if (cleanest_data[i].name == d.name){
+                              cleanest_data[i]["forest"][scale(d.year)] = d.param
+                            }
+                          }
+                        })
+
+                //Save co2, gdp, population to global variable
+                  co2Data = cleanest_data 
+                  //console.log(co2Data)
+                //Consolodate energy data
+                    var ec_array = []
+                    var eid_array = []
+
+                    clean_eng.forEach(function(d){
+                      if (ec_array.indexOf(d.name) == -1){
+                        ec_array.push(d.name)
+                        eid_array.push(d.country_id)
+                      }
+                    })
+                    
+                    //Array to store consolodated energy data
+                    var cleanest_edata = []
+
+                    //Instantiate one object for each country
+                    ec_array.forEach(function(d, i){
+                     var arr1 = d3.range(53).map(function () {return -1; });
+                     var arr2 = d3.range(53).map(function () {return -1; });
+                     var arr3 = d3.range(53).map(function () {return -1;});
+
+
+                      cleanest_edata.push({
+                        "name": d,
+                        "country_id": eid_array[i],
+                        "total_energy_use": arr1,
+                        "alt_energy_use": arr2,
+                        "comb_energy_use": arr3
+                      })
+                    });
+
+                    //Populate country arrays with values for energy for each year
+                    clean_eng.forEach(function(d){
+                      for (var i = 0; i < cleanest_edata.length ; i++){
+                        if (cleanest_edata[i].name == d.name){
+                          cleanest_edata[i]["total_energy_use"][scale(d.year)] = d.param
+                        }
+                      }
+                    })
+
+                    clean_alt.forEach(function(d){
+                      for (var i = 0; i < cleanest_edata.length ; i++){
+                        if (cleanest_edata[i].name == d.name){
+                          cleanest_edata[i]["alt_energy_use"][scale(d.year)] = d.param
+                        }
+                      }
+                    })
+
+                    clean_comb.forEach(function(d){
+                      for (var i = 0; i < cleanest_edata.length ; i++){
+                        if (cleanest_edata[i].name == d.name){
+                          cleanest_edata[i]["comb_energy_use"][scale(d.year)] = d.param
+                        }
+                      }
+                    })
+
+                    //add new array for change in forest area percentage
+                    co2Data.forEach(function(d){
+                      d.forest_change = [0]
+                      for (var i = 1; i < 53; i++) {
+                        d.forest_change.push(d.forest[i]-d.forest[i-1]);
+                      }
+                    })
+
+                    //add new array for change in population
+                    co2Data.forEach(function(d){
+                      d.pop_change = [d.pop[1]-d.pop[0]]
+                      for (var i = 1; i < 54; i++) {
+                        d.pop_change.push(d.pop[i]-d.pop[i-1]);
+                      }
+                    })
+
+
+                    //Store consolodated energy data in global variable
+                    engData = cleanest_edata;
+
+
+                  initVis();
+                                }
+                            }
+            var startHere = function(){
+
+             //load data here and call "dataLoaded" afterwards
+                queue()
+                .defer(d3.json, 'data/countries_co2_raw_data.json')
+                .defer(d3.json, 'data/gdp_raw_data.json')
+                .defer(d3.json, 'data/pop_raw_data.json')
+                .defer(d3.json, 'data/long_lat.json')
+                .defer(d3.json, 'data/energy_use_ktoil_raw_data.json')
+                .defer(d3.json, 'data/alt_nuc_eng_raw_data.json')
+                .defer(d3.json, 'data/combust_renew_raw_data.json')
+                .defer(d3.json, 'data/forest_area_raw_data.json')
+                .defer(d3.json, 'data/country_metadata.json')
+                .defer(d3.json, 'data/sector_data.json')
+
+                .await(dataLoaded);
+
+      
+            }
+           
+            startHere();
+        
+        })
+    </script>
+</body>
+</html>
