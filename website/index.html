@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>House Price Modeling</title>
+
+    <!-- ADD Libraries-->
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://d3js.org/topojson.v1.min.js"></script>
+    <script src="http://d3js.org/queue.v1.min.js"></script>
+    <script src="libs/jquery/jquery-2.1.1.min.js" charset="utf-8"></script>
+    <script src="libs/bootstrap/js/bootstrap.min.js" charset="utf-8"></script>
+    <script src="dm/dist/datamaps.world.min.js"></script>
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+
+    <!--Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="libs/bootstrap/css/bootstrap.min.css">
+
+    <!-- Get some nice font-->
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- add own stylesheet-->
+    <link rel="stylesheet" type="text/css" href="css/myStyle.css">
+
+    <!-- add own scripts-->
+    <script src = "js/onevis.js"></script>
+    <script src = "js/twovis.js"></script>
+
+</head>
+<body>
+    <div class="navbar_home">
+          <ul>
+            <li><a id="nav_motivation">PROJECT OVERVIEW</a></li>
+            <!--<li><a id="nav_objectives">OBJECTIVES</a></li>
+            <li><a id="nav_approach">APPROACH</a></li>-->
+            <li><a id="nav_analysis">ANALYSIS</a></li>
+            <!--<li><a href="visualization.html#chapter_one" id="nav2">VISUALIZATION</a></li>-->
+            <li><a href="https://github.com/austinwu0/cs109-final-project" target="_blank">GIT</a></li>
+            <!--<li><a href="https://docs.google.com/document/d/1CMFDlRChkY_jYVbcKnQ7r_KYUoOQrEGPPxC4wvye3mQ" id="nav5">PROCESS BOOK</a></li>-->
+            <li><a >VIDEO</a></li>
+          </ul>
+        </div>
+    <div class="div1" id="back">
+      <div class="div2">
+      </div>
+    </div>
+
+    <div class="col-md-12">
+      <p class="heading-begin" id="1">MODELING HOUSE AND RENT PRICES</p>
+      <!--<p class="heading-begin" id="1">M&nbspO&nbspD&nbspE&nbspL&nbspI&nbspN&nbspG H&nbspO&nbspU&nbspS&nbspE P&nbspR&nbspI&nbspC&nbspE&nbspS </p>-->
+      <p class="heading-middle" id="2">on neighborhood factors across the US</p>
+      <a><p id="start_button" class="temp_title_begin">START</p></a>
+      <a href="visualization.html#chapter_one"><p class="heading-end"></p></a>
+    </div>
+    
+    <div class="col-md-7" id="motivation">
+      <p class="title_large emphasis">Project Overview</p>
+      <p class="title emphasis">Motivation</p>
+      <p class="title2">One of our team members has an interest in urban planning and currently works at a startup that provides a platform for cities to promote redevelopment of economically underutilized properties. Since we’re all seniors about to enter the real world and rent or buy homes and apartments for the first time, we’re all interested in trying to pick the “right” neighborhood in live in, and make a good financial investment in the future. </p>
+    </div>
+
+
+    <div class="col-md-7" id="objectives">
+      <p class="title emphasis">Objectives</p>
+      <p class="title2">We hope to be able to predict what neighborhoods in America’s largest cities are slated to be the most popular in the upcoming years, and what sort of factors can be used to predict popularity. “Popularity” is a subjective measure depending on the demographic being considered, so we will do some data exploration to determine a suitable and objective metric which can be related to popularity in a broad context; for now, we plan on using some metric that combines the distribution of housing prices and rental prices. 
+      <br>
+      <br>
+      In writing our narrative at the conclusion of our project, we will pretend to be real-estate speculators trying to cash in on the next real estate boom. Our project, if successful in being able to predict which neighborhoods are on the verge of making it big, would have significant ramifications for real estate investment, as well as businesses and individuals who want to place themselves at the center of rapid growth and economic prosperity.
+      <br>
+      <br>
+      What are the questions we're trying to answer?
+      </p>
+
+    </div>
+
+
+    <div class="col-md-7" id="approach">
+      <p class="title emphasis">Approach</p>
+      <p class="title2">We will use datasets that detail city-specific information over time. Ideally we will be able to get data down to the neighborhood level; if not, we will adjust our approach accordingly. We anticipate utilizing various U.S. Census APIs in order to retrieve information on demographics, crime rates, industry employment, university enrollment, migration, investment, economic indicators etc. in different cities/counties in different years (http://www.census.gov/data/developers/data-sets.html). The U.S. Census API also offers housing prices broken down by city/county, which we will try and predict in our model. We will look how change in our predictors over the years tracks housing prices and build a model to predict how these factors relate to housing prices. Zillow, Enigma.io, and other sources might also be able to offer other useful factors (internet usage, restaurant distribution, transportation, etc.) broken down by county/city.
+      </p>
+      <br><br>
+    </div>
+
+
+    <div class="col-md-7" id="analysis">
+      <p class="title_large emphasis">Analysis</p>
+      <p class="title emphasis">Exploratory Analysis</p>
+      <p class="title2">Here is one piece of exploratory data analysis. 
+        <br>
+        Note: Scroll up on any map to zoom in and scroll down to zoom out.</p>
+
+      <div class="graph" id="twovis"><br></div>
+      <div class="graph" id="onevis"><br></div>
+      
+    </div>
+
+  
+  <script>
+        
+        //to fade things in
+        var fs = 1500;
+        var fs_2 = 0;
+        $("#back").fadeIn(fs);
+        
+        var ratioDelta_Vis = new TwoVis(d3.select("#twovis"), "ratio_pct_delta", "Price-to-Rent Ratio % Change from 2011 to 2015", "b");
+
+        var h2011_Vis = new OneVis(d3.select("#onevis"), "houses_2011_3", "House Prices 2011", "b");
+        var h2015_Vis = new OneVis(d3.select("#onevis"), "h_agg_2015_adj", "House Prices 2015", "b");
+
+        var r2011_Vis = new OneVis(d3.select("#onevis"), "r_agg_2011", "Rental Prices 2011", "b");
+        var r2015_Vis = new OneVis(d3.select("#onevis"), "r_agg_2015_adj", "Rental Prices 2015", "b");
+        
+        var hrRatio2011_Vis = new OneVis(d3.select("#onevis"), "ratio_2011", "Price-to-Rent Ratio 2011", "b");
+        var hrRatio2015_Vis = new OneVis(d3.select("#onevis"), "ratio_2015", "Price-to-Rent Ratio 2015", "b");
+
+        (function($) {
+          $.fn.goTo = function() {
+            $('html, body').animate({
+              scrollTop: ($(this).offset().top -50) + 'px'
+            }, 1000);
+            return this; // for chaining...
+          }
+        })(jQuery);
+
+        var start_button = document.getElementById("start_button");
+        start_button.addEventListener("click", function() { 
+          $('#motivation').goTo();
+          console.log("clicked")
+        });
+
+        var nav_motivation = document.getElementById("nav_motivation");
+        nav_motivation.addEventListener("click", function() { 
+          $('#motivation').goTo();
+          console.log("clicked")
+        });
+
+        var nav_analysis = document.getElementById("nav_analysis");
+        nav_analysis.addEventListener("click", function() { 
+          $('#analysis').goTo();
+          console.log("clicked")
+        });
+
+        
+    </script>
+</body>
+</html>
