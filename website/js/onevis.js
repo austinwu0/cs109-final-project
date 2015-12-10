@@ -2,8 +2,9 @@
 
 /*** Create javascript object for first visualization ***/
 
-OneVis = function(_parentElement, metric, words, color){
+OneVis = function(_parentElement, metric, words, color, mean){
   this.parentElement = _parentElement;
+    this.mean = mean;
     //this.data = _tempdata
     this.displayData = null
     this.metric = metric;
@@ -18,13 +19,13 @@ OneVis = function(_parentElement, metric, words, color){
 
 OneVis.prototype.initVis = function(){
     var that = this;
-    var width = 450;
+    var width = 420;
     var height = 400;
   //append svg element
         var rateById = d3.map();
 
         var quantile = d3.scale.quantile()
-            .range(d3.range(9))
+            .range(d3.range(11))
 
         var projection = d3.geo.albersUsa()
             .scale(600)
@@ -35,7 +36,8 @@ OneVis.prototype.initVis = function(){
 
         var svg = this.parentElement.append("svg")
             .attr("width", width)
-            .attr("height", height);
+            .attr("height", height)
+            .attr("class", "map");
 
         queue()
             .defer(d3.json, "data/us.json")
@@ -47,13 +49,21 @@ OneVis.prototype.initVis = function(){
           .attr("class", "tooltip")       
           .style("opacity", 0);
 
+        function median(values) {
+
+            values.sort( function(a,b) {return a - b;} );
+
+            var half = Math.floor(values.length/2);
+
+            if(values.length % 2) return values[half];
+            else return (values[half-1] + values[half]) / 2.0;
+          }
 
         function ready(error, us, houses) {
           if (error) throw error;
           houses.forEach(function(d){rateById.set(d.id, +d.value); });
           quantile.domain(rateById.values());
-          //console.log(Math.log(100));
-
+          //console.log(Math.max.apply(Math, rateById.values()), Math.min.apply(Math, rateById.values()), median(rateById.values()));
 
         var hello = svg.append("g")
               .attr("class", "counties")

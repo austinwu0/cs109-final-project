@@ -74,9 +74,9 @@ a:active {
 .heading-begin {
     text-align: center;
     margin-top: 350px;
-    letter-spacing: 3px;
+    letter-spacing: 8px;
     color: white;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .heading-middle {
@@ -954,29 +954,24 @@ ul {
 .p7-9 { fill:#54278f; }
 .p8-9 { fill:#3f007d; }
 
-.t0-9 { fill:#DFF2F1; }
-.t1-9 { fill:#BFE6E3; }
-.t2-9 { fill:#A0D9D5; }
-.t3-9 { fill:#80CDC8; }
-.t4-9 { fill:#60C1BA; }
-.t5-9 { fill:#51BAB3; }
-.t6-9 { fill:#41B4AC; }
-.t7-9 { fill:#21A89E; }
-.t8-9 { fill:#029C91; }
+.t0-9 { fill:#67001f; }
+.t1-9 { fill:#b2182b; }
+.t2-9 { fill:#d6604d; }
+.t3-9 { fill:#f4a582; }
+.t4-9 { fill:#fddbc7; }
+.t5-9 { fill:#f7f7f7; }
+.t6-9 { fill:#d1e5f0; }
+.t7-9 { fill:#92c5de; }
+.t8-9 { fill:#4393c3; }
+.t9-9 { fill:#2166ac; }
+.t10-9 { fill:#053061; }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.map {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
 
 
