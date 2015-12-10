@@ -1,0 +1,1249 @@
+type,facility_name,state,zip
+State Correctional Facility,Bibb Correctional Facility,Alabama,35034
+State Correctional Facility,Bullock Correctional Facility,Alabama,36089
+State Correctional Facility,Donaldson Correctional Facility,Alabama,35023-7299
+State Correctional Facility,Draper Correctional Facility,Alabama,36025
+State Correctional Facility,Easterling Correctional Facility,Alabama,36017-2615
+State Correctional Facility,Elmore Correction Facility,Alabama,36025
+State Correctional Facility,Fountain Correctional Facility,Alabama,36503-3800
+State Correctional Facility,Hamilton Aged & Infirmed,Alabama,35570
+State Correctional Facility,Holman Correctional Facility,Alabama,36503-3700
+State Correctional Facility,Kilby Correctional Facility,Alabama,36117
+State Correctional Facility,Limestone Correctional Facility,Alabama,35749
+State Correctional Facility,St Clair Correctional Facility,Alabama,35146
+State Correctional Facility,Staton Correctional Facility,Alabama,36025
+State Correctional Facility,Tutwiler Prison for Women,Alabama,36092
+State Correctional Facility,Ventress Correctional Facility,Alabama,36016
+Contract Facility,ATEF,Alabama,35051
+Contract Facility,Perry County Detention Facility,Alabama,36786
+Work Releases/ Work Centers/ Camps,Alex City Work Release Center,Alabama,35010
+Work Releases / Work Centers/ Camps,Atmore Work Release Center,Alabama,36503
+Work Releases/ Work Centers/ Camps,Birmingham Work Release Center,Alabama,35234-3196
+Work Releases/ Work Centers/ Camps,Camden Work Release Center,Alabama,36726
+Work Releases/ Work Centers/ Camps,Childersburg Work Release Center,Alabama,35044
+Work Releases/ Work Centers/ Camps,Decatur Work Release Center,Alabama,35601
+Work Releases/ Work Centers/ Camps,Elba Work Release Center,Alabama,36323
+Work Releases/ Work Centers/ Camps,Frank Lee Youth Center,Alabama,36022
+Work Releases / Work Centers / Camps,Hamilton Work Release Center,Alabama,35570
+Work Releases/ Work Centers/ Camps,Loxley Work Release Center,Alabama,36551
+Work Releases/ Work Centers/ Camps,Mobile Work Release Center,Alabama,36610
+Work Releases/ Work Centers/ Camps,Montgomery Women's Facility,Alabama,36117
+Work Releases/ Work Centers/ Camps,Red Eagle Honor Farm,Alabama,36110
+State Correctional Facility,Anchorage Correctional Complex,Alaska,99501
+State Correctional Facility,Anvil Mountain Correctional Center,Alaska,99762
+State Correctional Facility,Fairbanks Correctional Center,Alaska,99701
+State Correctional Facility,Goose Creek Correctional Center,Alaska,99654
+State Correctional Facility,Hiland Mountain Correctional Center,Alaska,99577
+State Correctional Facility,Ketchikan Correctional Center,Alaska,99901-6270
+State Correctional Facility,Lemon Creek Correctional Center,Alaska,99801
+State Correctional Facility,Mat-Su Pretrial,Alaska,99645
+State Correctional Facility,Palmer Correctional Center,Alaska,99645
+State Correctional Facility,Point Mackenzie Correctional Farm,Alaska,99654
+State Correctional Facility,Spring Creek Correctional Center,Alaska,99664
+State Correctional Facility,Wildwood Correctional Complex,Alaska,99611
+State Correctional Facility,Yukon Kuskokwim Correctional Center,Alaska,99559
+State Correctional Facility,ASPC - Perryville,Arizona,85395
+State Correctional Facility,ASPC - Lewis,Arizona,85326
+State Correctional Facility,ASPC - Yuma,Arizona,85349
+State Correctional Facility,ASPC - Douglas,Arizona,85607
+State Correctional Facility,ASPC - Tucson,Arizona,85734
+State Correctional Facility,ASPC - Safford,Arizona,85546
+State Correctional Facility,ASPC - Eyman,Arizona,85132
+State Correctional Facility,ASPC - Florence,Arizona,85132
+State Correctional Facility,ASPC - Phoenix,Arizona,85008
+State Correctional Facility,ASPC - Winslow,Arizona,86047
+Contract Facility,ASP - Phoenix West,Arizona,85009
+Contract Facility,Marana CCTF,Arizona,85653
+Contract Facility,ASP - Florence West,Arizona,85132
+Contract Facility,ASP - Kingman,Arizona,86414
+Contract Facility,Central ArizonaCorrectional Facility,Arizona,85132
+Contract Facility,Eloy Detention Center,Arizona,85131
+Contract Facility,Florence Correctional Center,Arizona,85132
+Contract Facility,Central Arizona Detention Center,Arizona,85132
+Contract Facility,La Palma Correctional Center,Arizona,85131
+Contract Facility,Saguaro Correctional Center,Arizona,85131
+Contract Facility,Red Rock Correctional Center,Arizona,85131
+State Correctional Facility,Cummins Unit,Arkansas,71643
+State Correctional Facility,Delta Regional Unit,Arkansas,71638
+State Correctional Facility,East Arkansas Regional Unit,Arkansas,
+State Correctional Facility,Grimes Unit,Arkansas,72112
+State Correctional Facility,J. Aaron Hawkins Sr. Center,Arkansas,
+State Correctional Facility,Maximum Security Unit,Arkansas,
+State Correctional Facility,McPherson Unit,Arkansas,72112
+Work Release Center,Mississippi County Work Release Center,Arkansas,
+State Correctional Facility,North Central Unit,Arkansas,72519
+Work Release Center,Northwest Arkansas Work Release Center,Arkansas,72764
+State Correctional Facility,Ouachita River Unit,Arkansas,
+State Correctional Facility,Pine Bluff Unit,Arkansas,71603
+State Correctional Facility,Randall L. Williams Correctional Facility,Arkansas,71603
+State Correctional Facility,Texarkana Regional Correction Center,Arkansas,71854
+State Correctional Facility,Tucker Unit,Arkansas,
+State Correctional Facility,Varner Unit,Arkansas,
+State Correctional Facility,Wrightsville Unit,Arkansas,
+State Correctional Facility,Pelican Bay State Prison (PBSP),California,95531
+State Correctional Facility,High Desert State Prison (HDSP),California,96127
+State Correctional Facility,California Correctional Center (CCC),California,96127
+State Correctional Facility,San Quentin State Prison,California,94964
+State Medical Facility,California Medical Facility (CMF),California,95696
+State Correctional Facility,"California State Prison, Solano (SOL)",California,95696
+State Correctional Facility,Folsom State Prison (FSP),California,95671
+State Correctional Facility,"California State Prison, Sacramento (SAC)",California,95671
+State Correctional Facility,Mule Creek State Prison (MCSP),California,95640
+Youth Correctional Facility,N.A. Chaderjian Youth Correctional Facility,California,95215
+Youth Correctional Facility,O.H. Close Youth Correctional Facility,California,95215
+State Correctional Facility,"California Health Care Facility, Stockton",California,95215
+State Correctional Facility,Deuel Vocational Institution (DVI),California,95376
+State Correctional Facility,Sierra Conservation Center (SCC),California,95327
+State Correctional Facility,Correctional Training Facility (CTF),California,93960
+State Correctional Facility,Salinas Valley State Prison (SVSP),California,93960
+State Correctional Facility,Central California Women's Facility (CCWF),California,93610
+State Correctional Facility,Valley State Prison (VSP),California,93610
+State Correctional Facility,Pleasant Valley State Prison (PVSP),California,93210
+State Correctional Facility,Avenal State Prison (ASP),California,93204
+State Medical Facility,"California Substance Abuse Treatment Facility and State Prison, Corcoran (SATF-CSP, Corcoran)",California,93212
+State Correctional Facility,"California State Prison, Corcoran (CSP-COR)",California,93212
+State Correctional Facility,California Men's Colony (CMC),California,93409
+State Correctional Facility,Wasco State Prison-Reception Center (WSP),California,93280
+State Correctional Facility,North Kern State Prison (NKSP),California,93215
+State Correctional Facility,Kern Valley State Prison (KVSP),California,93216
+State Correctional Facility,California Correctional Institution (CCI),California,93561
+State Correctional Facility,"California State Prison, Los Angeles County (LAC)",California,93536
+Youth Correctional Facility,Ventura Youth Correctional Facility,California,93010
+State Correctional Facility,California Institution for Men (CIM),California,91710
+State Correctional Facility,California Institution for Women (CIW),California,92880
+State Correctional Facility,California Rehabilitation Center (CRC),California,92860
+State Correctional Facility,Richard J. Donovan Correctional Facility (RJD),California,92179
+State Correctional Facility,"California State Prison, Centinela (CEN)",California,92251
+State Correctional Facility,Calipatria State Prison (CAL),California,92233
+State Correctional Facility,Ironwood State Prison (ISP),California,92225
+State Correctional Facility,Chuckawalla Valley State Prison (CVSP),California,92225
+Contract Facility,San Diego Correctional Facility,California,92158
+Contract Facility,CAI - Boston Avenue,California,92113
+Contract Facility,California City Correctional Center,California,93505
+Contract Facility,CAI - Ocean View,California,92113
+Contract Facility,Golden State Medium Community Correctional Facility,California,93250
+Contract Facility,Central Valley MCCF,California,93250
+Contract Facility,Adelanto Detention Facility East & West,California,92301
+Contract Facility,Desert View MCCF,California,92301
+Contract Facility,Taft Correctional Institution,California,93268
+Contract Facility,Western Region Detention Facility at San Diego,California,92101
+State Correctional Facility,ACC - Arrowhead Correctional Center,Colorado,81212
+State Correctional Facility,AVCF - Arkansas Valley Correctional Facility,Colorado,81034
+State Correctional Facility,BVCC - Buena Vista Correctional Complex,Colorado,81211
+State Correctional Facility,CCC - Colorado Correctional Center (Camp George West),Colorado,80401
+State Correctional Facility,CCF - Centennial Correctional Facility,Colorado,81215
+State Correctional Facility,CSP - Colorado State Penitentiary,Colorado,81215
+State Correctional Facility,CTCF - Colorado Territorial Correctional Facility,Colorado,81215
+State Correctional Facility,DCC - Delta Correctional Center,Colorado,81416
+State Correctional Facility,Denver Reception & Diagnostic Center,Colorado,80239
+State Correctional Facility,DWCF - Denver Women's Correctional Facility,Colorado,80239
+State Correctional Facility,FCF - Fremont Correctional Facility,Colorado,81215
+State Correctional Facility,FLCF - Fort Lyon Correctional Facility - CLOSED,Colorado,
+State Correctional Facility,FMCC - Four Mile Correctional Center,Colorado,81212
+State Correctional Facility,LCF - Limon Correctional Facility,Colorado,80826
+State Correctional Facility,LVCF - La Vista Correctional Facility,Colorado,81003
+State Correctional Facility,RCC - Rifle Correctional Center,Colorado,81650
+State Correctional Facility,SCC - Skyline Correctional Center,Colorado,81212
+State Correctional Facility,SCCF - San Carlos Correctional Facility,Colorado,81003
+State Correctional Facility,SCF - Sterling Correctional Facility,Colorado,80751
+State Correctional Facility,TCF - Trinidad Correctional Facility,Colorado,81059
+Youth Correctional Facility,YOS - Youthful Offender System,Colorado,81003
+Contract Facility,BCCF - Bent County Correctional Facility,Colorado,81054
+Contract Facility,CCCF - Crowley County Correctional Facility,Colorado,81062
+Contract Facility,CMRC - Cheyenne Mountain Re-entry Center,Colorado,80906
+Contract Facility,Huerfano County Correctional Center,Colorado,81089
+Contract Facility,KCCC - Kit Carson Correctional Center,Colorado,80807
+Contract Facility,Aurora Detention Facility,Colorado,80010
+State Correctional Facility,Bergin Correctional Institution - CLOSED,Connecticut,6268
+State Correctional Facility,Bridgeport Correctional Center,Connecticut,6604
+State Correctional Facility,Brooklyn Correctional Institution,Connecticut,6234
+State Correctional Facility,Cheshire Correctional Institution,Connecticut,6410
+State Correctional Facility,Corrigan-Radgowski Correctional Center,Connecticut,6382
+State Correctional Facility,Enfield Correctional Institution,Connecticut,6082
+State Correctional Facility,Garner Correctional Institution,Connecticut,6470
+State Correctional Facility,Gates Correctional Institution - CLOSED,Connecticut,6357
+State Correctional Facility,Hartford Correctional Center,Connecticut,6120
+State Correctional Facility,MacDougall-Walker Correctional Institution,Connecticut,6080
+Youth Correctional Facility,Manson Youth Institution,Connecticut,6410
+State Correctional Facility,New Haven Correctional Center,Connecticut,6511
+State Correctional Facility,Niantic Annex,Connecticut,6357
+State Correctional Facility,Northern Correctional Institution,Connecticut,6071
+State Correctional Facility,Osborn Correctional Institution,Connecticut,6071
+State Correctional Facility,Robinson Correctional Institution,Connecticut,6082
+State Correctional Facility,Webster Correctional Institution - CLOSED,Connecticut,6410
+State Correctional Facility,Willard-Cybulski Correctional Institution,Connecticut,6082
+State Correctional Facility,York Correctional Institution,Connecticut,6357
+State Correctional Facility,Baylor Women's Correctional Institution (BWCI),Delaware,19720
+State Correctional Facility,James T. Vaughn Correctional Center,Delaware,19977
+State Correctional Facility,Sussex Correctional Institution (SCI),Delaware,19947
+Youth Correctional Facility,Howard R. Young Correctional Institution,Delaware,19801
+State Correctional Facility,Apalachee Correctional Institution East (Male),Florida,32460-4166
+State Correctional Facility,Apalachee Correctional Institution West (Male),Florida,32460-4165
+Contract Facility,Bay Correctional Facility (Male),Florida,32404-5492
+Contract Facility,Blackwater River Correctional Facility (Male),Florida,32583
+State Correctional Facility,Calhoun Correctional Institution (Male)- Workcamp Adjacent,Florida,32424-5156
+State Correctional Facility,Century Correctional Institution (Male)- Workcamp Adjacent,Florida,32535-3659
+State Correctional Facility,Franklin Correctional Institution (Male)- Workcamp Adjacent,Florida,32322
+Contract Facility,Gadsden Correctional Facility (Female),Florida,32351-9100
+Contract Facility,Graceville Correctional Facility (Male),Florida,32440
+Contract Facility,Citrus County Detention Facility,Florida,34461
+State Correctional Facility,Gulf Correctional Institution (Male),Florida,32465-0010
+State Correctional Facility,Holmes Correctional Institution (Male)- Workcamp Adjacent,Florida,32425-0190
+State Correctional Facility,Jackson Correctional Institution (Male)- Workcamp Adjacent,Florida,32445-3144
+State Correctional Facility,Jefferson Correctional Institution (Male),Florida,32344-0430
+State Correctional Facility,Liberty Correctional Institution (Male)- Workcamp Adjacent,Florida,32321-9711
+State Correctional Facility,Northwest Florida Reception Center (Male),Florida,32428-3501
+State Correctional Facility,Okaloosa Correctional Institution (Male)- Workcamp Adjacent,Florida,32539-6708
+State Correctional Facility,Quincy Annex (Male),Florida,32351-8645
+State Correctional Facility,Santa Rosa CI (Male),Florida,32583-7914
+State Correctional Facility,Taylor Correctional Institution (Male)- Workcamp Adjacent,Florida,32348-8747
+State Correctional Facility,Wakulla Correctional Institution (Male)- Workcamp Adjacent,Florida,32327-4963
+State Correctional Facility,Walton Correctional Institution (Male)- Workcamp Adjacent,Florida,32433-1831
+State Correctional Facility,Baker Correctional Institution (Male)- Workcamp Adjacent,Florida,32087-2359
+State Correctional Facility,Columbia Correctional Institution (Male)- Workcamp Adjacent,Florida,32025-2013
+State Correctional Facility,Cross City Correctional Institution (Male)- Workcamp Adjacent,Florida,32628
+State Correctional Facility,Florida State Prison (Male)- Workcamp Adjacent,Florida,32026-1000
+State Correctional Facility,Florida Women's Reception Center- Workcamp Adjacent,Florida,34482-1479
+State Correctional Facility,Hamilton Correctional Institution (Male)- Workcamp Adjacent,Florida,32052-1360
+Contract Facility,Lake City Correctional Facility (Male Youth),Florida,32055-6290
+Youth Correctional Facility,Lancaster Correctional Institution (Male Youth)- Workcamp Adjacent,Florida,32693-5641
+State Correctional Facility,Lawtey Correctional Institution (Male),Florida,32058
+Youth Correctional Facility,"Lowell Correctional Institution (Female, Youth)",Florida,34482-1479
+State Correctional Facility,Madison Correctional Institution (Male)- Workcamp Adjacent,Florida,32340-4430
+State Correctional Facility,Marion Correctional Institution (Male)- Workcamp Adjacent,Florida,34475
+State Correctional Facility,Mayo Correctional Institution (Male)- Workcamp Adjacent,Florida,32066-3458
+State Correctional Facility,Putnam Correctional Institution (Male),Florida,32131-2112
+State Correctional Facility,Suwannee Correctional Institution (Male),Florida,32060
+State Correctional Facility,Tomoka Correctional Institution (Male) - Workcamp Adjacent,Florida,32124-1098
+State Correctional Facility,Union Correctional Institution (Male),Florida,32026-4000
+State Correctional Facility,Avon Park Correctional Institution (Male) - Workcamp Adjacent,Florida,
+State Correctional Facility,Central Florida Reception Center (Male),Florida,32831-2518
+State Correctional Facility,Charlotte Correctional Institution (Male),Florida,33955-9701
+State Correctional Facility,Dade Correctional Institution (Male),Florida,33034-6409
+State Correctional Facility,DeSoto Annex (Male) - Workcamp Adjacent,Florida,34266-7800
+State Correctional Facility,Everglades Correctional Institution (Male),Florida,33194
+State Correctional Facility,Hardee Correctional Institution (Male)- Workcamp Adjacent,Florida,33834-9505
+Youth Correctional Facility,"Hernando Correctional Institution (Female, Youth)",Florida,34604-8167
+State Correctional Facility,Homestead Correctional Institution (Female),Florida,33034-6409
+State Correctional Facility,Lake Correctional Institution (Male),Florida,34715-9025
+State Correctional Facility,Martin Correctional Institution (Male) - Workcamp Adjacent,Florida,34956-4397
+Contract Facility,Moore Haven Correctional Facility (Male),Florida,33471
+State Correctional Facility,Okeechobee Correctional Institution (Male),Florida,34972-4824
+State Correctional Facility,Polk Correctional Institution (Male) - Workcamp Adjacent,Florida,33868-6925
+Contract Facility,South Bay Correctional Facility (Male),Florida,33493-2233
+State Correctional Facility,South Florida Reception Center (Male),Florida,33178-3003
+State Correctional Facility,Sumter Correctional Institution (Male),Florida,33513-0667
+State Correctional Facility,Zephyrhills Correctional Institution (Male),Florida,33541-9701
+Work Camps / Work Release / Road Prisons,Berrydale Forestry Camp (Male),Florida,32565-2204
+Work Camps / Work Release / Road Prisons,Calhoun Work Camp - (Male),Florida,32424-5156
+Work Camps / Work Release / Road Prisons,Century Work Camp - (Male),Florida,32535-3659
+Work Camps / Work Release / Road Prisons,Franklin Work Camp,Florida,32322
+Work Camps / Work Release / Road Prisons,Graceville Work Camp - (Male),Florida,32440-4289
+Work Camps / Work Release / Road Prisons,Gulf Forestry Camp (Male),Florida,32465
+Work Camps / Work Release / Road Prisons,Holmes Work Camp - (Male),Florida,32425-4238
+Work Camps / Work Release / Road Prisons,Jackson Work Camp - (Male),Florida,32445-9998
+Work Camps / Work Release / Road Prisons,Liberty Work Camp - South Unit- (Male),Florida,32321-0711
+Work Camps / Work Release / Road Prisons,Okaloosa Work Camp - (Male),Florida,32539-6708
+Work Camps / Work Release / Road Prisons,Taylor Work Camp (Male),Florida,32348-0000
+Work Camps / Work Release / Road Prisons,Wakulla Work Camp - (Male),Florida,32327-4963
+Work Camps / Work Release / Road Prisons,Baker Work Camp - (Male),Florida,32087-2359
+Work Camps / Work Release / Road Prisons,Cross City Work Camp - (Male),Florida,32628
+Work Camps / Work Release / Road Prisons,Gainesville Work Camp (Male),Florida,32641-6067
+Work Camps / Work Release / Road Prisons,Lancaster Work Camp - (Male),Florida,32693-5641
+Work Camps / Work Release / Road Prisons,Lowell Work Camp (Female),Florida,34482-000
+Work Camps / Work Release / Road Prisons,Madison Work Camp - (Male),Florida,32340-4430
+Work Camps / Work Release / Road Prisons,Marion Work Camp - (Male),Florida,32663-0158
+Work Camps / Work Release / Road Prisons,Mayo Work Camp - (Male),Florida,32066
+Work Camps / Work Release / Road Prisons,RMC Work Camp - (Male),Florida,32054
+Work Camps / Work Release / Road Prisons,Suwannee Work Camp - (Male),Florida,32060
+Work Camps / Work Release / Road Prisons,Tomoka Work Camp - (Male),Florida,32124-1098
+Work Camps / Work Release / Road Prisons,Union Correctional Work Camp,Florida,32083
+Work Camps / Work Release / Road Prisons,Arcadia Road Prison (Male),Florida,34266-8203
+Work Camps / Work Release / Road Prisons,Avon Park Work Camp - (Male),Florida,33826-1100
+Work Camps / Work Release / Road Prisons,Big Pine Key Road Prison (Male),Florida,33043-0509
+Work Camps / Work Release / Road Prisons,DeSoto Work Camp (Male),Florida,34266-0000
+Work Camps / Work Release / Road Prisons,Ft. Myers Work Camp (Male),Florida,33994-1107
+Work Camps / Work Release / Road Prisons,Hardee Work Camp - (Male),Florida,33834-9505
+Work Camps / Work Release / Road Prisons,Largo Road Prison (Male),Florida,33760-4006
+Work Camps / Work Release / Road Prisons,Loxahatchee Road Prison (Male),Florida,33411-3616
+Work Camps / Work Release / Road Prisons,Martin Work Camp - (Male),Florida,34956-4310
+Work Camps / Work Release / Road Prisons,Polk Work Camp - (Male),Florida,33868-6925
+Work Camps / Work Release / Road Prisons,Sumter Basic Training Unit,Florida,33513-0667
+Work Camps / Work Release / Road Prisons,Sumter Work Camp - (Male),Florida,33513-0667
+Work Releases,Panama City WRC (Male),Florida,32405-2795
+Work Releases,Pensacola WRC (Male),Florida,32501-1010
+Work Releases,SHISA- East (Female),Florida,32205-8017
+Work Releases,SHISA- West (Female),Florida,32301-1030
+Work Releases,Tallahassee WRC (Male),Florida,32305-6739
+Work Releases,Bridges of Jacksonville WRC (Male),Florida,32254
+Work Releases,Daytona Beach WRC (Male),Florida,32124-1002
+Work Releases,Dinsmore WRC (Male),Florida,32219
+Work Releases,Lake City WRC (Male),Florida,32055-2564
+Work Releases,Re-Entry of Ocala WRC (Male),Florida,34470-4231
+Work Releases,Santa Fe WRC (Male),Florida,32602-1202
+Work Releases,Atlantic WRC (Female),Florida,33411-3639
+Work Releases,Bartow WRC (Male),Florida,33830-4200
+Transition Center,Bradenton Transition Center (Female),Florida,34203-5012
+Work Releases,Bridges of Orlando WRC (Male),Florida,32808-5613
+Work Releases,Bridges of Pompano - Turning Point Work Release (Male),Florida,33060-6822
+Work Releases,Cocoa WRC (Male),Florida,32927-4738
+Work Releases,Ft. Pierce WRC (Male),Florida,34982-6544
+Work Releases,Hollywood WRC (Female),Florida,33025-4542
+Work Releases,Kissimmee WRC (Male),Florida,34744-1200
+Work Releases,Miami North WRC (Male),Florida,33166-6817
+Work Releases,Opa Locka WRC (Male),Florida,33054-4310
+Transition Center,Orlando Transition Center (Male),Florida,32808
+Work Releases,Orlando WRC (Female),Florida,32818-5278
+Work Releases,Pinellas WRC (Female),Florida,33760-4002
+Transfer Facility,Pompano Transit Center (Male),Florida,33309-2800
+Work Releases,St. Petersburg WRC (Male),Florida,33711-2000
+Work Releases,Suncoast WRC (Female),Florida,33702-1422
+Work Releases,Tarpon Springs WRC (Male),Florida,34689-6707
+Transition Center,The Transition House (Male),Florida,34744
+Work Releases,West Palm Beach WRC (Male),Florida,33411-3639
+State Correctional Facility,Arrendale State Prison (Lee Arrendale),Georgia,30510-0709
+State Medical Facility,Augusta State Medical Prison,Georgia,30813
+State Correctional Facility,Autry State Prison (Jimmy Autry),Georgia,31779
+State Correctional Facility,Baldwin State Prison,Georgia,31034
+State Correctional Facility,Burruss C.T.C. (Al Burruss Correctional Training Center),Georgia,31029
+State Correctional Facility,Calhoun State Prison,Georgia,39866
+State Correctional Facility,Central State Prison,Georgia,31208
+State Correctional Facility,Coastal State Prison,Georgia,31418
+State Correctional Facility,Dodge State Prison,Georgia,31012-0276
+State Correctional Facility,Dooly State Prison,Georgia,31091
+State Correctional Facility,Emanuel Facility,Georgia,30401
+State Correctional Facility,G.D.C.P. (GA Diagnostic And Classification State Prison),Georgia,30233
+State Correctional Facility,Georgia State Prison,Georgia,30453
+State Correctional Facility,Hancock State Prison,Georgia,31087
+State Correctional Facility,"Hays State Prison(Forest Hays, Jr. State Prison)",Georgia,30753
+State Medical Facility,Helms Facility (Medical Holding Facility),Georgia,30401
+State Correctional Facility,Johnson State Prison,Georgia,31096
+State Correctional Facility,Lee State Prison,Georgia,31763
+State Correctional Facility,Long Unit,Georgia,31316
+State Correctional Facility,Macon State Prison,Georgia,31068
+State Correctional Facility,Montgomery State Prison,Georgia,30445
+State Correctional Facility,Phillips State Prison (Clyde N. Phillips State Prison),Georgia,30519
+State Correctional Facility,Pulaski State Prison,Georgia,31036
+State Correctional Facility,Richard Rogers State Prison,Georgia,30453
+State Correctional Facility,Rutledge State Prison (Jack T. Rutledge SP),Georgia,31907
+State Correctional Facility,Smith State Prison (Donald B. Smith SP),Georgia,30427
+State Correctional Facility,Telfair State Prison,Georgia,31037
+State Correctional Facility,Valdosta State Prison,Georgia,31603
+State Correctional Facility,Walker State Prison,Georgia,30739
+State Correctional Facility,Ware State Prison,Georgia,31503
+State Correctional Facility,Washington State Prison,Georgia,31018
+State Correctional Facility,Whitworth Women's Facility,Georgia,30643
+State Correctional Facility,Wilcox State Prison,Georgia,31001
+Contract Facility,Coffee Correctional Facility,Georgia,31554
+Contract Facility,Jenkins Facility,Georgia,30442
+Contract Facility,McRae Correctional Facility,Georgia,31055
+Contract Facility,D. Ray James Detention Facility,Georgia,31537
+Contract Facility,D. Ray James Correctional Facility,Georgia,31537
+Contract Facility,North Georgia Detention Center,Georgia,30501
+Contract Facility,Robert A. Deyton Detention Facility,Georgia,30250
+Contract Facility,Riverbend Correctional Facility,Georgia,31061
+Contract Facility,Stewart Detention Center,Georgia,31815
+Contract Facility,Wheeler Correctional Facility,Georgia,30411
+County Prison,Athens/Clarke County Prison,Georgia,30605
+County Prison,Bulloch County Prison,Georgia,30458
+County Prison,Carroll County Prison,Georgia,30117
+County Prison,Clayton County Prison,Georgia,30250
+County Prison,Colquitt County Prison,Georgia,31738
+County Prison,Coweta County Prison,Georgia,30263
+County Prison,Decatur County Prison,Georgia,39817
+County Prison,Effingham County Prison,Georgia,31329
+County Prison,Floyd County Prison,Georgia,30161
+County Prison,Gwinnett County Prison,Georgia,30043
+County Prison,Hall County Prison,Georgia,30507
+County Prison,Harris County Prison,Georgia,31811
+County Prison,Jackson County Prison,Georgia,30549
+County Prison,Jefferson County Prison,Georgia,30434
+County Prison,Mitchell County Prison,Georgia,31730
+County Prison,Muscogee County Prison,Georgia,31908
+County Prison,Richmond County Prison,Georgia,30906
+County Prison,Screven County Prison,Georgia,30467
+County Prison,Spalding County Prison,Georgia,30224
+County Prison,Sumter County Prison,Georgia,31709
+County Prison,Terrell County Prison,Georgia,31742
+County Prison,Thomas County Prison,Georgia,31757
+County Prison,Troup County Prison,Georgia,30240
+State Correctional Facility,Oahu Community Correctional Center,Hawaii,96819
+State Correctional Facility,Hawaii Community Correction Center,Hawaii,96720
+State Correctional Facility,Kauai Community Correctional Center,Hawaii,96766
+State Correctional Facility,Maui Community Correctional Center,Hawaii,96793
+State Correctional Facility,Halawa Correctional Facility,Hawaii,96701
+State Correctional Facility,Waiawa Correctional Facility,Hawaii,96797
+State Correctional Facility,Womens Community Correctional Center,Hawaii,96734
+Contract Facility,Correctional Alternative Placement Program (CAPP),Idaho,
+State Correctional Facility,Idaho Correctional Center (ICC),Idaho,83634
+State Correctional Facility,Idaho Maximum Security Institution (IMSI),Idaho,
+State Correctional Facility,Idaho State Correctional Institution (ISCI),Idaho,
+State Correctional Facility,South Boise Women's Correctional Center (SBWCC),Idaho,
+State Correctional Facility,South Idaho Correctional Institution (SICI),Idaho,
+State Correctional Facility,North Idaho Correctional Institution (NICI),Idaho,
+State Correctional Facility,Idaho Correctional Institution-Orofino (ICIO),Idaho,83544
+State Correctional Facility,Pocatello Women's Correctional Center (PWCC),Idaho,83204
+Work Camps / Work Release / Road Prisons,St. Anthony Work Camp (SAWC),Idaho,83445
+State Correctional Facility,Big Muddy River Correctional Center,Illinois,62846
+State Correctional Facility,Centralia Correctional Center,Illinois,62801
+Work Camps / Work Release / Road Prisons,Clayton Work Camp,Illinois,62324
+Transition Center,CrossroadsAdult Transition Center,Illinois,60624
+State Correctional Facility,Danville Correctional Center,Illinois,61834
+State Correctional Facility,Decatur Correctional Center,Illinois,62524
+State Correctional Facility,DixonCorrectional Center,Illinois,61021
+Work Camps / Work Release / Road Prisons,Dixon Springs Impact Incarceration Program (IIP),Illinois,62938
+State Correctional Facility,Du Quoin Impact Incarceration Program (IIP),Illinois,62832
+State Correctional Facility,Dwight Correctional Center - CLOSED,Illinois,60420
+State Correctional Facility,East Moline Correctional Center,Illinois,61244
+Work Camps / Work Release / Road Prisons,East MolineWork Camp,Illinois,61244
+Transition Center,FoxValley Adult Transition Center,Illinois,60506
+State Correctional Facility,Graham Correctional Center,Illinois,62049
+Work Camps / Work Release / Road Prisons,GreeneCounty Impact Incarceration Program (IIP) - Jacksonville Correctional Center,Illinois,62082
+Work Camps / Work Release / Road Prisons,Hardin County Work Camp,Illinois,62919
+State Correctional Facility,Hill Correctional Center,Illinois,61402
+State Correctional Facility,Illinois RiverCorrectional Center,Illinois,61520
+State Correctional Facility,JacksonvilleCorrectional Center,Illinois,62650
+State Correctional Facility,LawrenceCorrectional Center,Illinois,62466
+State Correctional Facility,LincolnCorrectional Center,Illinois,62656
+State Correctional Facility,LoganCorrectional Center,Illinois,62656
+State Correctional Facility,Menard Correctional Center,Illinois,62259
+Transition Center,NorthLawndale Adult Transition Center,Illinois,60612
+Transition Center,Northern Reception and Classification Center,Illinois,60434
+Transition Center,Peoria Adult Transition Center,Illinois,61602
+State Correctional Facility,Pinckneyville Correctional Center,Illinois,62274
+Work Camps / Work Release / Road Prisons,PittsfieldWork Camp,Illinois,62363
+State Correctional Facility,PontiacCorrectional Center,Illinois,61764
+State Correctional Facility,PontiacMedium Security Unit,Illinois,61764
+State Correctional Facility,Robinson Correctional Center,Illinois,62454
+State Correctional Facility,ShawneeCorrectional Center,Illinois,62943
+State Correctional Facility,Sheridan Correctional Center,Illinois,60551
+Transition Center,Southern Illinois Adult Transition Center - CLOSED,Illinois,62901
+State Correctional Facility,Southwestern Illinois Correctional Center,Illinois,62203
+Work Camps / Work Release / Road Prisons,Southwestern Work Camp,Illinois,62203
+State Correctional Facility,Stateville Correctional Center,Illinois,60434
+State Correctional Facility,Stateville Minimum Security Unit,Illinois,60434
+State Correctional Facility,Tamms Correctional Center - CLOSED,Illinois,62988
+State Correctional Facility,Tamms Minimum Security Unit- CLOSED,Illinois,62988
+State Correctional Facility,Taylorville Correctional Center,Illinois,62568
+State Correctional Facility,Vandalia Correctional Center,Illinois,62471
+Work Camps / Work Release / Road Prisons,Vandalia Work Camp,Illinois,62471
+State Correctional Facility,Vienna Correctional Center,Illinois,62995
+Transition Center,West Side Adult Transition Center - CLOSED,Illinois,60612
+State Correctional Facility,Western IllinoisCorrectional Center,Illinois,62353
+State Correctional Facility,Chain O'lakes Correctional Facility,Indiana,46701
+State Correctional Facility,Edinburgh Correctional Facility,Indiana,46124
+State Correctional Facility,Henryville Correctional Facility,Indiana,47126
+Transition Center,Indianapolis Re-entry Educational Facility,Indiana,46201
+State Correctional Facility,Madison Correctional Facility,Indiana,47250
+Transition Center,South Bend Community Re-entry,Indiana,46628
+Contract Facility,Plainfield Short Term Offender Program (STOP),Indiana,46168
+State Correctional Facility,Branchville Correctional Facility,Indiana,47514
+State Correctional Facility,Correctional Industrial Facility,Indiana,46064
+Contract Facility,New Castle Correctional Facility,Indiana,47362
+Contract Facility,Marion County Jail II,Indiana,46202
+State Correctional Facility,Plainfield Correctional Facility,Indiana,46168
+State Correctional Facility,Putnamville Correctional Facility,Indiana,46135
+State Correctional Facility,Rockville Correctional Facility (Women),Indiana,47872
+State Correctional Facility,Westville Correctional Facility,Indiana,46391
+State Correctional Facility,Miami Correctional Facility,Indiana,46914
+State Correctional Facility,Wabash Valley Correctional Facility,Indiana,47838
+State Correctional Facility,Indiana State Prison,Indiana,46360
+State Correctional Facility,Indiana Women's Prison,Indiana,46214
+State Correctional Facility,Pendleton Correctional Facility,Indiana,46064
+State Correctional Facility,Anamosa State Penitentiary,Iowa,52205
+State Correctional Facility,Fort Dodge Correctional Facility,Iowa,50501-5767
+State Correctional Facility,North Central Correctional Facility,Iowa,50579
+State Correctional Facility,Clarinda Correctional Facility,Iowa,51632
+State Correctional Facility,Iowa Correctional Institution for Women,Iowa,50169
+State Correctional Facility,Newton Correctional Facility,Iowa,50208
+State Correctional Facility,Luster Heights,Iowa,52146
+State Medical Facility,Iowa Medical and Classification Center,Iowa,52241
+State Correctional Facility,Mt. Pleasant Correctional Facility,Iowa,52641
+State Correctional Facility,Iowa State Penitentiary,Iowa,52627
+State Correctional Facility,El Dorado Correctional Facility,Kansas,67042
+State Correctional Facility,Norton Correctional Facility,Kansas,
+State Correctional Facility,Ellsworth Correctional Facility,Kansas,67439
+State Correctional Facility,Topeka Correctional Facility,Kansas,66607
+Contract Facility,Leavenworth Detention Center,Kansas,66048
+State Correctional Facility,Hutchinson Correctional Facility,Kansas,67501
+State Correctional Facility,Winfield Correctional Facility,Kansas,67156
+State Correctional Facility,Lansing Correctional Facility,Kansas,66043
+Work Releases,Wichita Work Release Facility (WWRF),Kansas,67202
+State Correctional Facility,Larned Correctional Facility,Kansas,67550-9304
+State Correctional Facility,Kansas Correctional Industries,Kansas,66043
+Work Camps / Work Release / Road Prisons,Bell County Forestry Camp,Kentucky,40977
+State Correctional Facility,Blackburn Correctional Complex,Kentucky,40511
+State Correctional Facility,Eastern Kentucky Correctional Complex,Kentucky,41472
+State Correctional Facility,Green River Correctional Complex,Kentucky,42330
+State Correctional Facility,Kentucky Correctional Institution for Women,Kentucky,40056
+State Correctional Facility,Kentucky State Penitentiary,Kentucky,42038
+State Correctional Facility,Kentucky State Reformatory,Kentucky,40032
+State Correctional Facility,Little Sandy Correctional Complex,Kentucky,41171
+State Correctional Facility,Luther Luckett Correctional Complex,Kentucky,40031
+State Correctional Facility,Roederer Correctional Complex,Kentucky,40031
+State Correctional Facility,Western Kentucky Correctional Complex,Kentucky,42411
+State Correctional Facility,Northpoint Training Center,Kentucky,40310
+Contract Facility,Marion Adjustment Center,Kentucky,40063
+Contract Facility,Lee Adjustment Center,Kentucky,41311
+Contract Facility,Otter Creek Correctional Center,Kentucky,41669
+Contract Facility,Allen Correctional Center,Louisiana,70648
+State Correctional Facility,Avoyelles Correctional Center,Louisiana,71327
+Contract Facility,Caldwell Parish Detention Center,Louisiana,71435
+State Correctional Facility,David Wade Correctional Center,Louisiana,71040
+State Correctional Facility,Dixon Correctional Institute,Louisiana,70748
+State Correctional Facility,Elayn Hunt Correctional Center,Louisiana,70776
+State Correctional Facility,Forcht-Wade Correctional Center - CLOSED,Louisiana,71047
+State Correctional Facility,J. Levy Dabadie Correctional Center - CLOSED,Louisiana,71360
+State Correctional Facility,Louisiana Correctional Institute for Women,Louisiana,70776
+State Correctional Facility,Louisiana State Penitentiary,Louisiana,70712
+State Correctional Facility,C. Paul Phelps Correctional Center - CLOSED,Louisiana,70633
+Contract Facility,J.B. Evans Correctional Center,Louisiana,71357
+Contract Facility,Pine Prairie Correctional Center,Louisiana,70576
+Contract Facility,South Louisiana Correctional Center,Louisiana,70515
+State Correctional Facility,B.B. Rayburn Correctional Center,Louisiana,70426
+Contract Facility,LaSalle Detention Facility,Louisiana,71342
+Contract Facility,Winn Correctional Center,Louisiana,71483
+State Correctional Facility,Bolduc Correctional Facility,Maine,4864
+State Correctional Facility,Charleston Correctional Facility,Maine,4422
+State Correctional Facility,Downeast Correctional Facility,Maine,4655
+State Correctional Facility,Maine Correctional Center,Maine,4062
+State Correctional Facility,Maine State Prison,Maine,4864
+Work Releases,Southern Maine Re-entry Center,Maine,4002
+State Correctional Facility,Baltimore City Correctional Center,Maryland,21202
+State Correctional Facility,Brockbridge Correctional Facility,Maryland,20794
+Transition Center,Baltimore Pre-Release Unit,Maryland,21202
+State Correctional Facility,Chesapeake Detention Facility (Formerly MCAC),Maryland,21202
+State Correctional Facility,Central Home Detention Unit,Maryland,21218
+State Correctional Facility,Central Maryland Correctional Facility(Formerly CLF),Maryland,21784
+State Correctional Facility,Correctional Mental Health Center - Jessup,Maryland,20794
+State Correctional Facility,Dismas House East - CLOSED,Maryland,
+State Correctional Facility,Dismas House West - CLOSED,Maryland,
+State Correctional Facility,Dorsey Run Correctional Facility,Maryland,20794
+State Correctional Facility,Eastern Correctional Institution,Maryland,21890
+Work Releases,Eastern Correctional Institution Annex,Maryland,21890
+Transition Center,Eastern Pre-Release Unit,Maryland,21623
+State Correctional Facility,Herman L. Toulson Correctional Facility(Formerly TBC) - CLOSED,Maryland,
+State Correctional Facility,Jessup Correctional Institution,Maryland,20794
+Transition Center,Jessup Pre-Release Unit,Maryland,20794
+State Correctional Facility,Maryland Correctional Institution - Hagerstown,Maryland,20794
+State Correctional Facility,Maryland Correctional Institution - Jessup,Maryland,20794
+State Correctional Facility,Maryland Correctional Institution for Women,Maryland,20794
+Transition Center,Maryland Correctional Pre-Release System Admin Offices,Maryland,20794
+State Correctional Facility,Maryland Correctional Training Center,Maryland,21746
+State Correctional Facility,"Maryland Reception, Diagnostic and Classification Center",Maryland,21202
+Transition Center,Metropolitan Transition Center,Maryland,21202
+State Correctional Facility,North Branch Correctional Institution,Maryland,21502
+State Correctional Facility,Patuxent Institution,Maryland,20794
+Transition Center,Poplar Hill Pre-Release Unit,Maryland,21856
+State Correctional Facility,Roxbury Correctional Institution,Maryland,21746
+Transition Center,Southern Maryland Pre-Release Unit,Maryland,20622
+State Correctional Facility,Threshold,Maryland,21202
+State Correctional Facility,Western Correctional Institution,Maryland,21502
+State Correctional Facility,Baltimore Central Booking and Intake Center,Maryland,21202
+State Correctional Facility,Baltimore City Detention Center,Maryland,21202
+State Correctional Facility,Bay State CorrectionalCenter,Massachusetts,02056-0073
+State Correctional Facility,Boston Pre-Release Center,Massachusetts,2131
+State Correctional Facility,Bridgewater Correctional Complex,Massachusetts,2324
+State Medical Facility,Bridgewater State Hospital,Massachusetts,2324
+State Medical Facility,Lemuel Shattuck Hospital Correctional Unit,Massachusetts,2130
+State Medical Facility,Massachusetts Alcohol and Substance Abuse Center,Massachusetts,2324
+State Medical Facility,Massachusetts Treatment Facility,Massachusetts,2324
+State Correctional Facility,MCI-Cedar Junction,Massachusetts,2081
+State Correctional Facility,MCI-Concord,Massachusetts,1742
+State Correctional Facility,MCI-Framingham,Massachusetts,01704-9007
+State Correctional Facility,MCI-Norfolk,Massachusetts,2056
+State Correctional Facility,MCI Plymouth,Massachusetts,2366
+State Correctional Facility,Shirley Correctional Complex,Massachusetts,1464
+State Correctional Facility,North Central Correctional Institute - Gardner,Massachusetts,01440-0466
+State Correctional Facility,Northeastern Correctional Center,Massachusetts,01742-1069
+State Correctional Facility,Old Colony Correctional Center,Massachusetts,2324
+State Correctional Facility,Pondville Correctional Center,Massachusetts,2056
+State Correctional Facility,South Middlesex Correctional Center,Massachusetts,01701-0850
+State Correctional Facility,Souza-Baranowski Correctional Center,Massachusetts,1464
+State Correctional Facility,Alger Correctional Facility (LMF),Michigan,49862
+State Correctional Facility,Baraga Correctional Facility (AMF),Michigan,49908-9204
+State Correctional Facility,Bellamy Creek Correctional Facility (IBC),Michigan,48846
+State Correctional Facility,Boyer Road Correctional Facility - Consolidated with Carson City,Michigan,48811
+State Correctional Facility,Carson City Correctional Facility (DRF),Michigan,48811
+State Correctional Facility,Central Michigan Correctional Facility (STF),Michigan,48880
+Transition Center,Charles Egeler Reception & Guidance Center (RGC),Michigan,49201-7547
+State Correctional Facility,Chippewa Correctional Facility (URF),Michigan,49784
+State Correctional Facility,Cooper Street Correctional Facility (JCS),Michigan,49201
+Transition Center,Detroit Reentry Center (PRF),Michigan,48212
+State Correctional Facility,Earnest C. Brooks Correctional Facility (LRF),Michigan,49444
+State Correctional Facility,Florence Crane Correctional Facility (ACF) - CLOSED,Michigan,49036
+State Correctional Facility,G. Robert Cotton Correctional Facility (JCF),Michigan,49201
+State Correctional Facility,Gus Harrison Correctional Facility (ARF),Michigan,49221
+State Correctional Facility,Ionia Correctional Facility (ICF),Michigan,48846
+State Correctional Facility,Kinross Correctional Facility (KCF),Michigan,49788
+State Correctional Facility,Lakeland Correctional Facility (LCF),Michigan,49036
+State Correctional Facility,Macomb Correctional Facility (MRF),Michigan,48048
+State Correctional Facility,Marquette Branch Prison (MBP),Michigan,49855
+State Correctional Facility,Michigan Reformatory (RMI),Michigan,48846
+State Correctional Facility,Mid-Michigan/Pine River Correctional Facility NKA Central Michigan Correctional Facility,Michigan,48880
+State Correctional Facility,Mound Correctional Facility (NRF) - Closed,Michigan,48212
+State Correctional Facility,Muskegon Correctional Facility (MCF),Michigan,49442
+State Correctional Facility,Newberry Correctional Facility (NCF),Michigan,49868
+State Correctional Facility,Oaks Correctional Facility (ECF),Michigan,49660
+State Correctional Facility,Ojibway Correctional Facility (OCF),Michigan,49947-9771
+State Correctional Facility,Parnall Correctional Facility (SMT),Michigan,49201
+State Correctional Facility,Parr Highway Correctional Facility - Consolidated with Gus Harrison,Michigan,49221
+State Correctional Facility,Pugsley Correctional Facility (MPF),Michigan,49649
+State Correctional Facility,Richard A. Handlon Correctional Facility (MTU),Michigan,48846
+State Correctional Facility,Saginaw Correctional Facility (SRF),Michigan,48623
+State Correctional Facility,Special Alternative Incarceration Facility (SAI),Michigan,48118
+State Correctional Facility,St. Louis Correctional Facility (SLF),Michigan,48880
+State Correctional Facility,Straits Correctional Facility - Consolidated with Chippewa,Michigan,49785
+State Correctional Facility,Thumb Correctional Facility (TCF),Michigan,48446
+State Correctional Facility,West Shoreline Correctional Facility (MTF),Michigan,49444
+State Correctional Facility,Women's Huron Valley Correctional Facility (WHV),Michigan,48197-0911
+State Correctional Facility,Woodland Center Correctional Facility (WCC),Michigan,48189
+State Correctional Facility,Minnesota Correctional Facility - Faribault,Minnesota,55021-6400
+State Correctional Facility,Minnesota Correctional Facility - Lino Lakes,Minnesota,55014
+State Correctional Facility,Minnesota Correctional Facility - Oak Park Heights,Minnesota,55082-1117
+State Correctional Facility,Minnesota Correctional Facility - Red Wing,Minnesota,55066
+State Correctional Facility,Minnesota Correctional Facility - Rush City,Minnesota,55069
+State Correctional Facility,Minnesota Correctional Facility - St. Cloud,Minnesota,56304
+State Correctional Facility,Minnesota Correctional Facility - Shakopee,Minnesota,55379
+State Correctional Facility,Minnesota Correctional Facility - Stillwater,Minnesota,55003-1490
+State Correctional Facility,Minnesota Correctional Facility - Willow River/moose Lake,Minnesota,55767
+Work Camps / Work Release / Road Prisons,Minnesota Correctional Facility - Togo,Minnesota,55723
+Contract Facility,Prairie Correctional Facility - CLOSED,Minnesota,56208
+Contract Facility,Adams County Correctional Center,Mississippi,39120
+State Correctional Facility,Central Mississippi Correctional Facility,Mississippi,39208
+State Correctional Facility,Mississippi State Penitentiary,Mississippi,38738
+State Correctional Facility,South Mississippi Correctional Institution,Mississippi,39451
+State Correctional Facility,Alcorn County Regional Correctional Facility,Mississippi,38834
+State Correctional Facility,Bolivar County Correctional Facility,Mississippi,38732
+State Correctional Facility,Carroll-Montgomery County/Regional Correctional Facility,Mississippi,39176
+State Correctional Facility,Chickasaw County RCF,Mississippi,38851
+State Correctional Facility,Holmes-Humphreys County/Regional Correctional Facility,Mississippi,39095
+State Correctional Facility,Issaquena County Correctional Facility,Mississippi,39113
+State Correctional Facility,Jefferson-Franklin County/Regional Correctional Facility,Mississippi,39069
+State Correctional Facility,Kemper-Neshoba County/Regional Correctional Facility,Mississippi,39328
+State Correctional Facility,Leake County Correctional Facility,Mississippi,39051
+State Correctional Facility,Marion-Walthall County/Regional Correctional Facility,Mississippi,39429
+State Correctional Facility,Winston-Choctaw County/Regional Correctional Facility,Mississippi,39339
+State Correctional Facility,Stone County Correctional Facility,Mississippi,39577
+State Correctional Facility,Yazoo County Correctional Facility,Mississippi,39194
+State Correctional Facility,George-Greene County/Regional Correctional Facility,Mississippi,39452
+State Correctional Facility,Washington County/Regional Correctional Facility,Mississippi,38701
+Contract Facility,East Mississippi Correctional Facility,Mississippi,39307
+Contract Facility,Marshall County Correctional Facility,Mississippi,38634
+Contract Facility,Tallahatchie County Correctional Facility,Mississippi,38963
+Contract Facility,Wilkinson County Correctional Center,Mississippi,39669
+Contract Facility,Walnut Grove Correctional Facility,Mississippi,39189
+State Correctional Facility,Algoa Correctional Center (Minimum),Missouri,65101
+State Correctional Facility,Boonville Correctional Center (Minimum),Missouri,65233-1300
+State Correctional Facility,Chillicothe Correctional Center (Minimum/Medium/Maximum),Missouri,64601
+Transition Center,Cremer Therapeutic Community Center,Missouri,65251
+State Correctional Facility,Crossroads Correctional Center (Maximum/Medium),Missouri,64429
+State Correctional Facility,Eastern Reception Diagnostic and Correctional Center (Minimum/Medium/Maximum Diagnostic),Missouri,63628
+State Correctional Facility,Farmington Correctional Center (Medium/Minimum),Missouri,63640
+Transition Center,Fulton Reception and Diagnostic Center (Minimum Diagnostic),Missouri,65251
+State Correctional Facility,Jefferson City Correctional Center (Maximum/Medium),Missouri,65101
+State Correctional Facility,Maryville Treatment Center (Minimum),Missouri,64468
+State Correctional Facility,Missouri Eastern Correctional Center (Medium/Minimum),Missouri,63069
+State Correctional Facility,Moberly Correctional Center (Medium/Minimum),Missouri,65270
+State Correctional Facility,Northeast Correctional Center (Medium/Minimum),Missouri,63334
+State Correctional Facility,Ozark Correctional Center (Minimum),Missouri,65652
+State Correctional Facility,Potosi Correctional Center (Minimum/Medium/Maximum),Missouri,63660
+State Correctional Facility,South Central Correctional Center (Minimum/Medium/Maximum),Missouri,65542
+State Correctional Facility,Southeast Correctional Center (Minimum/Medium Maximum),Missouri,63834
+State Correctional Facility,Tipton Correctional Center (Minimum),Missouri,65081
+State Correctional Facility,Western Missouri Correctional Center (Medium Minimum),Missouri,64429
+Transition Center,Western Reception Diagnostic and Correctional Center (Minimum Diagnostic),Missouri,64506
+State Correctional Facility,Women's Eastern Reception Diagnostic and Correctional Center (Minimum/Medium/Maximum Diagnostic),Missouri,63382
+State Correctional Facility,Montana State Prison - Deer Lodge,Montana,59722
+Contract Facility,Crossroads Correctional Center,Montana,59474
+State Correctional Facility,Cascade County Regional Prison,Montana,59404
+State Correctional Facility,Dawson County Correctional Facility,Montana,59330
+Transition Center,Lewistown Infirmary,Montana,59457
+State Correctional Facility,Missoula County Detention Facility,Montana,59802
+State Correctional Facility,Montana Women's Prison,Montana,59101
+State Correctional Facility,Community Corrections Center - Lincoln,Nebraska,68522
+State Correctional Facility,Community Corrections Center - Omaha,Nebraska,68110
+State Correctional Facility,Lincoln Correctional Center,Nebraska,68522
+State Correctional Facility,Nebraska Correctional Center for Women,Nebraska,68467-8003
+State Correctional Facility,Nebraska Correctional Youth Facility,Nebraska,68110
+State Correctional Facility,Nebraska State Penitentiary,Nebraska,68502
+State Correctional Facility,Tecumseh State Correctional Institution,Nebraska,68450
+Work Camps / Work Release / Road Prisons,Work Ethic Camp,Nebraska,69001
+State Correctional Facility,Ely State Prison (ESP),Nevada,89301
+State Correctional Facility,Florence McClure Women's Correctional Center (FMWCC),Nevada,89115-1808
+State Correctional Facility,High Desert State Prison (HDSP),Nevada,89070
+State Correctional Facility,Lovelock Correctional Center (LCC),Nevada,89419
+State Correctional Facility,Nevada State Prison (NSP) - CLOSED,Nevada,
+State Correctional Facility,Northern Nevada Correctional Center (NNCC),Nevada,89701
+State Correctional Facility,Southern Desert Correctional Center (SDCC),Nevada,89070
+State Correctional Facility,Southern Nevada Correctional Center (SNCC) - CLOSED,Nevada,
+State Correctional Facility,Warm Springs Correctional Center (WSCC),Nevada,89701
+Contract Facility,Nevada Southern Detention Center,Nevada,89060
+Work Camps / Work Release / Road Prisons,Carlin Conservation Camp (CCC),Nevada,89822
+Work Camps / Work Release / Road Prisons,Ely Conservation Camp (ECC),Nevada,89301
+Work Camps / Work Release / Road Prisons,Humboldt Conservation Camp (HCC),Nevada,89446
+Work Camps / Work Release / Road Prisons,Jean Conservation Camp (JCC),Nevada,89019
+Work Camps / Work Release / Road Prisons,Pioche Conservation Camp (PCC),Nevada,89043
+Work Camps / Work Release / Road Prisons,Silver Springs Conservation Camp (SSCC) - CLOSED,Nevada,
+Work Camps / Work Release / Road Prisons,Stewart Conservation Camp (SCC),Nevada,89702
+Work Camps / Work Release / Road Prisons,Three Lakes Valley Boot Camp (TLVBC),Nevada,89070
+Work Camps / Work Release / Road Prisons,Three Lakes Valley Conservation Camp (TLVCC),Nevada,89070
+Work Camps / Work Release / Road Prisons,Tonopah Conservation Camp (TCC),Nevada,89049
+Work Camps / Work Release / Road Prisons,Wells Conservation Camp (WCC),Nevada,89835
+Transition Center,Northern Nevada Restitution Center (NNRC),Nevada,89502
+Transition Center,Casa Grande Transitional Housing (CGTH),Nevada,89118-2316
+State Correctional Facility,New Hampshire State Prison for Men,New Hampshire,03302-0014
+State Correctional Facility,New Hampshire State Prison for Women,New Hampshire,3045
+State Correctional Facility,Northern NH Correctional Facility,New Hampshire,3570
+State Correctional Facility,Lakes Region Facility - CLOSED,New Hampshire,
+State Correctional Facility,Adult Diagnostic and Treatment Center,New Jersey,7001
+State Correctional Facility,Albert C. Wagner Youth Correctional Facility,New Jersey,8505
+State Correctional Facility,Bayside State Prison,New Jersey,8327
+State Correctional Facility,Central Reception and Assignment Facility,New Jersey,8628
+State Correctional Facility,East Jersey State Prison,New Jersey,7065
+Contract Facility,Elizabeth Detention Center,New Jersey,7201
+State Correctional Facility,Edna Mahan Correctional Facility for Women,New Jersey,8809
+State Correctional Facility,Garden State Youth Correctional Facility,New Jersey,8620
+State Correctional Facility,Mid-State Correctional Facility,New Jersey,8562
+State Correctional Facility,Mountainview Youth Correctional Facility,New Jersey,8801
+State Correctional Facility,New Jersey State Prison,New Jersey,8611
+State Correctional Facility,Northern State Prison,New Jersey,7114
+State Correctional Facility,South Woods State Prison,New Jersey,8302
+State Correctional Facility,Southern State Correctional Facility,New Jersey,8314
+Contract Facility,Northeast New Mexico Detention Facility,New Mexico,88415
+State Correctional Facility,Springer Correctional Facility,New Mexico,87747
+State Correctional Facility,Penitentiary of New Mexico,New Mexico,87504
+Contract Facility,Cibola County Correctional Center,New Mexico,87021
+Contract Facility,Torrance County Detention Facility,New Mexico,87016
+Contract Facility,New Mexico Women's Correctional Facility,New Mexico,87020
+State Correctional Facility,Western New Mexico Correctional Facility,New Mexico,87020
+State Correctional Facility,Central New Mexico Correctional Facility,New Mexico,87031-1328
+Contract Facility,Guadalupe County Correctional Facility,New Mexico,
+State Correctional Facility,Roswell Correctional Center,New Mexico,88232
+Contract Facility,Otero County Prison Facility,New Mexico,88081
+Contract Facility,Lea County Correctional Facility,New Mexico,88244
+State Correctional Facility,Adirondack Correctional Facility,New York,12977-0110
+State Correctional Facility,Albion Correctional Facility,New York,14411-9399
+State Correctional Facility,Altona Correctional Facility,New York,12910-2090
+State Correctional Facility,Attica Correctional Facility,New York,14011-0149
+State Correctional Facility,Auburn Correctional Facility,New York,13024-9000
+State Correctional Facility,Bare Hill Correctional Facility,New York,12953-0020
+State Correctional Facility,Bedford Hills Correctional Facility,New York,10507-2400
+State Correctional Facility,Butler Correctional Facility,New York,13143
+State Correctional Facility,Cape Vincent Correctional Facility,New York,13618-0599
+State Correctional Facility,Cayuga Correctional Facility,New York,13118-1150
+State Correctional Facility,Chateaugay Correctional Facility,New York,12920-0320
+State Correctional Facility,Clinton Correctional Facility,New York,12929-2000
+State Correctional Facility,Collins Correctional Facility,New York,14034-0490
+State Correctional Facility,Coxsackie Correctional Facility,New York,12051-0200
+State Correctional Facility,Downstate Correctional Facility,New York,12524-0445
+State Correctional Facility,Eastern NY Correctional Facility,New York,12458-0338
+Transition Center,Edgecombe Residential Treatment Facility,New York,10032-4398
+State Correctional Facility,Elmira Correctional Facility,New York,14901-0500
+State Correctional Facility,Fishkill Correctional Facility,New York,12508-0307
+State Correctional Facility,Five Points Correctional Facility,New York,14541
+State Correctional Facility,Franklin Correctional Facility,New York,12953-0010
+State Correctional Facility,Gouverneur Correctional Facility,New York,13642-0370
+State Correctional Facility,Gowanda Correctional Facility,New York,14070-0350
+State Correctional Facility,Great Meadow Correctional Facility,New York,12821-0051
+State Correctional Facility,Green Haven Correctional Facility,New York,12582-0010
+State Correctional Facility,Greene Correctional Facility,New York,12051-0008
+State Correctional Facility,Groveland Correctional Facility,New York,14556-0050
+State Correctional Facility,Hale Creek ASACTC,New York,12095-3769
+State Correctional Facility,Hudson Correctional Facility,New York,12534-0576
+State Correctional Facility,Lakeview Shock Incarceration Correctional Facility,New York,14716-9798
+State Correctional Facility,Lincoln Correctional Facility,New York,10026-4398
+State Correctional Facility,Livingston Correctional Facility,New York,14556-0049
+State Correctional Facility,Marcy Correctional Facility,New York,13403-5000
+State Correctional Facility,Mid-State Correctional Facility,New York,13403-0216
+State Correctional Facility,Mohawk Correctional Facility,New York,13440
+State Correctional Facility,Monterey Shock Incarceration Correctional Facility,New York,14812-9718
+State Correctional Facility,Moriah Shock Incarceration Correctional Facility,New York,12956-0999
+State Correctional Facility,Mt. McGregor Correctional Facility,New York,12831-5071
+State Correctional Facility,Ogdensburg Correctional Facility,New York,13669-2288
+State Correctional Facility,Orleans Correctional Facility,New York,14411-9199
+State Correctional Facility,Otisville Correctional Facility,New York,10963-0008
+Contract Facility,Queens Detention Facility,New York,11413
+State Correctional Facility,Queensboro Correctional Facility,New York,
+State Correctional Facility,Riverview Correctional Facility,New York,13669-0158
+State Correctional Facility,Rochester Correctional Facility,New York,14608-2499
+State Correctional Facility,Shawangunk Correctional Facility,New York,12589-0750
+State Correctional Facility,Sing Sing Correctional Facility,New York,10562-5442
+State Correctional Facility,Southport Correctional Facility,New York,14871-2000
+State Correctional Facility,Sullivan Correctional Facility,New York,12733-0116
+State Correctional Facility,Taconic Correctional Facility,New York,10507-2497
+State Correctional Facility,Ulster Correctional Facility,New York,12458-0800
+State Correctional Facility,Upstate Correctional Facility,New York,12953
+State Correctional Facility,Wallkill Correctional Facility,New York,12589-0286
+State Correctional Facility,Washington Correctional Facility,New York,12821-0180
+State Correctional Facility,Watertown Correctional Facility,New York,13601-9340
+State Correctional Facility,Wende Correctional Facility,New York,14004-1187
+Transition Center,Willard Drug Treatment Campus,New York,14588-0303
+State Correctional Facility,Woodbourne Correctional Facility,New York,12788-1000
+State Correctional Facility,Wyoming Correctional Facility,New York,14011-0501
+State Correctional Facility,Albemarle Correctional Institution,North Carolina,28127
+State Correctional Facility,Alexander Correctional Institution,North Carolina,28681
+State Correctional Facility,Avery-Mitchell Correctional Institution,North Carolina,28777
+State Correctional Facility,Bertie Correctional Institution,North Carolina,27983
+State Correctional Facility,Brown Creek Correctional Institution,North Carolina,28135
+State Correctional Facility,Buncombe Correctional Center,North Carolina,28804
+State Correctional Facility,Caldwell Correctional Center,North Carolina,28645
+State Correctional Facility,Caledonia Correctional Institution,North Carolina,27882
+State Correctional Facility,Carteret Correctional Center,North Carolina,28570
+State Correctional Facility,Caswell Correctional Center,North Carolina,27212
+State Correctional Facility,Catawba Correctional Center,North Carolina,28658
+State Correctional Facility,Central Prison,North Carolina,27606
+State Correctional Facility,Columbus Correctional Institution,North Carolina,28424
+State Correctional Facility,Craggy Correctional Center,North Carolina,28804
+State Correctional Facility,Craven Correctional Institution,North Carolina,28586
+Work Camps / Work Release / Road Prisons,Dan River Prison Work Farm,North Carolina,27212
+State Correctional Facility,Davidson Correctional Center,North Carolina,27292
+State Correctional Facility,Eastern Correctional Institution,North Carolina,28554
+State Correctional Facility,Foothills Correctional Institution,North Carolina,28655
+State Correctional Facility,Forsyth Correctional Center,North Carolina,27105
+State Correctional Facility,Fountain Correctional Center for Women,North Carolina,27804
+State Correctional Facility,Franklin Correctional Center,North Carolina,27508
+State Correctional Facility,Gaston Correctional Center,North Carolina,28034
+State Correctional Facility,Greene Correctional Institution,North Carolina,28554
+State Correctional Facility,Harnett Correctional Institution,North Carolina,27546
+State Correctional Facility,Hoke Correctional Institution,North Carolina,28376
+State Correctional Facility,Johnston Correctional Institution,North Carolina,27577
+State Correctional Facility,Lanesboro Correctional Institution,North Carolina,28135
+State Correctional Facility,Lincoln Correctional Center,North Carolina,28092
+State Correctional Facility,Lumberton Correctional Institution,North Carolina,28359
+State Correctional Facility,Marion Correctional Institution,North Carolina,28752
+State Correctional Facility,Maury Correctional Institution,North Carolina,28538
+State Correctional Facility,Morrison Correctional Institution,North Carolina,28347
+Contract Facility,Mountain View Correctional Institution,North Carolina,28777
+State Correctional Facility,Nash Correctional Institution,North Carolina,27856
+State Correctional Facility,Neuse Correctional Institution,North Carolina,27530
+State Correctional Facility,New Hanover Correctional Center,North Carolina,28402
+State Correctional Facility,North Carolina Correctional Institution for Women,North Carolina,27610
+State Correctional Facility,North Piedmont Correctional Center for Women,North Carolina,27292
+State Correctional Facility,Odom Correctional Institution,North Carolina,27845
+State Correctional Facility,Orange Correctional Center,North Carolina,27278
+State Correctional Facility,Pamlico Correctional Institution,North Carolina,28515
+State Correctional Facility,Pasquotank Correctional Institution,North Carolina,27906
+State Correctional Facility,Pender Correctional Institution,North Carolina,28425
+State Correctional Facility,Piedmont Correctional Institution,North Carolina,28147
+State Correctional Facility,Polk Correctional Institution,North Carolina,27509
+State Correctional Facility,Raleigh Correctional Center for Women,North Carolina,27610
+State Correctional Facility,Randolph Correctional Center,North Carolina,27203
+Contract Facility,Rivers Correctional Institution,North Carolina,27986
+State Correctional Facility,Rutherford Correctional Center,North Carolina,28160
+State Correctional Facility,Sampson Correctional Institution,North Carolina,28328
+State Correctional Facility,Sanford Correctional Center,North Carolina,27330
+State Correctional Facility,Scotland Correctional Institution,North Carolina,28353
+State Correctional Facility,Southern Correctional Institution,North Carolina,27371
+State Correctional Facility,Swannanoa Correctional Center for Women,North Carolina,28711
+State Correctional Facility,Tabor Correctional Institution,North Carolina,28463
+State Correctional Facility,Tillery Correctional Center,North Carolina,27887
+Work Camps / Work Release / Road Prisons,Tyrrell Prison Work Farm,North Carolina,27925
+State Correctional Facility,Wake Correctional Center,North Carolina,27610
+State Correctional Facility,Warren Correctional Institution,North Carolina,27553
+State Correctional Facility,Wilkes Correctional Center,North Carolina,28659
+State Correctional Facility,North Dakota State Penitentiary,North Dakota,58506-5521
+State Correctional Facility,Dakota Women's Correctional and Rehabilitation Center,North Dakota,58647
+State Correctional Facility,James River Correctional Center,North Dakota,58401
+State Correctional Facility,Missouri River Correctional Center,North Dakota,58506
+State Correctional Facility,North Dakota Youth Correctional Center,North Dakota,58554
+State Correctional Facility,Lucas County Correctional Treatment Facility,Ohio,43624
+State Correctional Facility,"Community Correctional Center of Butler, Clermont and Warren Counties (Male Facility)",Ohio,45036
+State Correctional Facility,Crosswaeh Community Based Correctional Facility (Male Facility),Ohio,44883
+State Correctional Facility,Crosswaeh Community Based Correctional Facility (Female Facility),Ohio,44883
+State Correctional Facility,Cuyahoga Community Based Correctional Facility,Ohio,44115
+State Correctional Facility,Eastern Ohio Correction Center - (Male Facility),Ohio,43953
+State Correctional Facility,Eastern Ohio Correction Center - (Female Facility),Ohio,44432
+State Correctional Facility,Franklin County Community Based Correctional Facility (Male and Female Facility),Ohio,43207
+State Correctional Facility,Licking/Muskingum Community Correction Center (Male Facility),Ohio,43055
+State Correctional Facility,Lorain/Medina Community Based Correctional Facility (Male and Female Facility),Ohio,44035
+Contract Facility,CBCF - Mahoning CCA,Ohio,44507
+Contract Facility,Northeast Ohio Correctional Center,Ohio,44505
+Contract Facility,Lake Erie Correctional Institution,Ohio,44030-8668
+Contract Facility,North Central Correctional Complex,Ohio,43302
+State Correctional Facility,MonDay Community Correctional Institution (Male and Female Facility),Ohio,45408
+State Correctional Facility,NorthEast Ohio Community Alternative Program (NEOCAP) (Male and Female Facility),Ohio,44483
+State Correctional Facility,NorthWest Community Corrections Center (Male Facility),Ohio,43402
+State Correctional Facility,River City Correctional Center (Male and Female Facility),Ohio,45225
+State Correctional Facility,SEPTA Correctional Facility (Male Facility),Ohio,45764
+State Correctional Facility,STAR Community Justice Center (Male and Female Facility),Ohio,45629
+State Correctional Facility,Stark Regional Community Correction Center (Male and Female Facility),Ohio,44641
+State Correctional Facility,Summit County Community Based Correctional Facility (Male Facility),Ohio,44309
+State Correctional Facility,Cliff Skeen CBCF for Women,Ohio,44309
+State Correctional Facility,West Central Community Correctional Facility (Male and Female Facility),Ohio,43040
+State Correctional Facility,Western Ohio Regional Treatment and Habilitation Center (Male and Female Facility),Ohio,45802-5305
+State Correctional Facility,"Charles E. ""Bill"" Johnson Correctional Center",Oklahoma,73717-3005
+State Correctional Facility,Dick Conner Correctional Center,Oklahoma,74035-0220
+State Correctional Facility,Dr. Eddie Warrior Correctional Center,Oklahoma,74463-0315
+State Correctional Facility,Howard McLeod Correctional Center,Oklahoma,74525-8415
+State Correctional Facility,Jackie Brannon Correctional Center,Oklahoma,74502-1999
+State Correctional Facility,James Crabtree Correctional Center,Oklahoma,73741-1017
+State Correctional Facility,Jess Dunn Correctional Center,Oklahoma,74463-0316
+State Correctional Facility,Jim E. Hamilton Correctional Center,Oklahoma,74939-3064
+State Correctional Facility,John H. Lilley Correctional Center,Oklahoma,74829
+State Correctional Facility,Joseph Harp Correctional Center,Oklahoma,73051-0548
+State Correctional Facility,Lexington Assessment & Reception Center,Oklahoma,73051-0260
+State Correctional Facility,Mabel Bassett Correctional Center,Oklahoma,74851
+State Correctional Facility,Mack Alford Correctional Center,Oklahoma,74569-0220
+State Correctional Facility,Northeast Oklahoma Correctional Center,Oklahoma,74301
+State Correctional Facility,Oklahoma State Penitentiary,Oklahoma,74502-0097
+State Correctional Facility,Oklahoma State Reformatory,Oklahoma,73547-0514
+State Correctional Facility,William S. Key Correctional Center,Oklahoma,73841-9718
+Contract Facility,Cimarron Correctional Facility,Oklahoma,74023
+Contract Facility,Davis Correctional Facility,Oklahoma,74848-9033
+Contract Facility,Lawton Correctional Facility,Oklahoma,73501
+Contract Facility,Diamondback Correctional Facility,Oklahoma,73772
+Contract Facility,North Fork Correctional Facility,Oklahoma,73662
+Community Corrections,Clara Waters Community Corrections Center,Oklahoma,73131-5228
+Community Corrections,Enid Community Corrections Center,Oklahoma,73701-6445
+Community Corrections,Kate Barnard Community Corrections Center,Oklahoma,73111
+Community Corrections,Lawton Community Corrections Center,Oklahoma,73501-8294
+Community Corrections,Oklahoma City Community Corrections Center,Oklahoma,73118-7634
+Community Corrections,Union City Community Corrections Center,Oklahoma,73090-0129
+State Correctional Facility,Coffee Creek Correctional Facility,Oregon,97070
+State Correctional Facility,Deer Ridge Correctional Institution,Oregon,97741
+State Correctional Facility,Mill Creek Correctional Facility,Oregon,97317
+State Correctional Facility,Oregon State Penitentiary,Oregon,97310-0505
+State Correctional Facility,Santiam Correctional Institution,Oregon,97317
+State Correctional Facility,Snake River Correctional Institution,Oregon,97914-8335
+State Correctional Facility,Two Rivers Correctional Institution,Oregon,97882
+State Correctional Facility,Columbia River Correctional Institution,Oregon,97211-1799
+State Correctional Facility,Eastern Oregon Correctional Institution,Oregon,97801-9699
+State Correctional Facility,Oregon State Correctional Institution,Oregon,97310-9385
+State Correctional Facility,Powder River Correctional Facility,Oregon,97814-1346
+State Correctional Facility,Shutter Creek Correctional Institution,Oregon,97459-0303
+Work Camps / Work Release / Road Prisons,South Fork Forest Camp,Oregon,97141-9799
+State Correctional Facility,Warner Creek Correctional Facility,Oregon,97630-5000
+State Correctional Facility,SCIAlbion,Pennsylvania,16475-0001
+State Correctional Facility,SCI Benner Township,Pennsylvania,16823
+State Correctional Facility,SCI Cambridge Springs,Pennsylvania,16403-1238
+State Correctional Facility,SCIChester,Pennsylvania,19013
+State Correctional Facility,SCI Coal Township,Pennsylvania,17866-1020
+State Correctional Facility,SCI Dallas,Pennsylvania,18612
+State Correctional Facility,SCIFayette,Pennsylvania,15450-1050
+State Correctional Facility,SCI Forest,Pennsylvania,16239-0307
+State Correctional Facility,SCI Frackville,Pennsylvania,17931-2699
+State Correctional Facility,SCI Graterford,Pennsylvania,19426-0246
+State Correctional Facility,SCI Greene,Pennsylvania,15370
+State Correctional Facility,SCI Houtzdale,Pennsylvania,16698-1000
+State Correctional Facility,SCI Huntingdon,Pennsylvania,16654-1112
+State Correctional Facility,SCI Laurel Highlands,Pennsylvania,15501-0631
+State Correctional Facility,SCI Mahanoy,Pennsylvania,17932
+Contract Facility,Moshannon Valley Correctional Center,Pennsylvania,16866
+State Correctional Facility,SCI Mercer,Pennsylvania,16137
+State Correctional Facility,SCI Muncy,Pennsylvania,17756
+State Correctional Facility,SCI Pine Grove,Pennsylvania,15701
+State Correctional Facility,SCI Pittsburgh,Pennsylvania,15233
+State Correctional Facility,Quehanna Boot Camp,Pennsylvania,16845
+State Correctional Facility,SCI Retreat,Pennsylvania,18621
+State Correctional Facility,SCI Rockview,Pennsylvania,16823
+State Correctional Facility,SCI Smithfield,Pennsylvania,16652
+State Correctional Facility,SCI Somerset,Pennsylvania,15510-0001
+State Correctional Facility,SCI Waymart,Pennsylvania,18472
+State Correctional Facility,Anthony P. Travisono Intake Service Center (ISC),Rhode Island,2920
+State Correctional Facility,High Security Center (HSC),Rhode Island,2921
+State Correctional Facility,Maximum Security,Rhode Island,2922
+State Correctional Facility,John J. Moran Medium Security Facility,Rhode Island,2923
+State Correctional Facility,Minimum Security,Rhode Island,2924
+State Correctional Facility,Gloria McDonald Awaiting Trial and Medium Security Facility,Rhode Island,2924
+State Correctional Facility,Bernadette Building,Rhode Island,2924
+State Correctional Facility,Livesay Correctional Institution,South Carolina,29303
+State Correctional Facility,Allendale Correctional Institution (L2),South Carolina,29827
+Transition Center,Lower Savannah Pre-Release Center (L1-A),South Carolina,29801
+State Correctional Facility,Broad River Correctional Institution (L3),South Carolina,29210
+State Correctional Facility,MacDougall Correctional Institution (L2),South Carolina,29472
+Transition Center,Campbell Pre-Release Center (L1-A),South Carolina,29210
+State Correctional Facility,Manning Correctional Institution (L1-B),South Carolina,29203
+Transition Center,Catawba Pre-Release Center (L1-A),South Carolina,29730
+State Correctional Facility,McCormick Correctional Institution (L3),South Carolina,29899
+Transition Center,Coastal Pre-Release Center (L1-A),South Carolina,29405
+Transition Center,Palmer Pre-Release Center (L1-A),South Carolina,29501
+State Correctional Facility,Evans Correctional Institution (L2),South Carolina,29512
+State Correctional Facility,Perry Correctional Institution (L3),South Carolina,29669
+State Correctional Facility,Goodman Correctional Institution,South Carolina,29210
+State Correctional Facility,Ridgeland Correctional Institution (L2),South Carolina,29936
+State Correctional Facility,Graham (Camille Griffin) Correctional Institution (Women L3),South Carolina,29210
+State Correctional Facility,Trenton Correctional Institution (L2),South Carolina,29847
+State Correctional Facility,Kershaw Correctional Institution (L2),South Carolina,29067
+State Correctional Facility,Turbeville Correctional Institution (L2),South Carolina,29162
+Transition Center,Kirkland Reception and Evaluation Center (L3),South Carolina,29210
+State Correctional Facility,Tyger River Correctional Institution (L2),South Carolina,29355
+State Correctional Facility,Leath Correctional Institution (Women L3),South Carolina,29649
+State Correctional Facility,Walden Correctional Institution (L1-B),South Carolina,29210
+State Correctional Facility,Lee Correctional Institution (L3),South Carolina,29010
+State Correctional Facility,Wateree River Correctional Institution (L2),South Carolina,29128
+State Correctional Facility,Lieber Correctional Institution (L3),South Carolina,29472
+State Correctional Facility,South Dakota State Penitentiary,South Dakota,57117
+State Correctional Facility,Mike Durfee State Prison,South Dakota,57062
+State Correctional Facility,Rapid City Minimum Unit,South Dakota,57703
+State Correctional Facility,Jameson Annex,South Dakota,57117
+State Correctional Facility,South Dakota Women's Prison,South Dakota,57501
+State Correctional Facility,Yankton Minimum Unit,South Dakota,57078
+State Correctional Facility,Bledsoe County Correctional Complex,Tennessee,37367
+State Correctional Facility,Charles B. Bass Correctional Complex,Tennessee,37243-0470
+Contract Facility,Hardeman County Correctional Facility,Tennessee,38075
+Contract Facility,Metro-Davidson County Detention Facility,Tennessee,37211
+Contract Facility,Silverdale Detention Facilities,Tennessee,37422
+State Correctional Facility,Lois M. DeBerry Special Needs Facility,Tennessee,37243-0470
+State Correctional Facility,Mark H. Luttrell Correctional Center,Tennessee,38134
+State Correctional Facility,Morgan County Correctional Complex,Tennessee,37887
+State Correctional Facility,Northeast Correctional Complex,Tennessee,37683
+State Correctional Facility,Northwest Correctional Complex,Tennessee,38079
+State Correctional Facility,Riverbend Maximum Security Institution,Tennessee,37243-0471
+Contract Facility,South Central Correctional Facility,Tennessee,38425-0279
+State Correctional Facility,Tennessee Prison for Women,Tennessee,37243-0468
+State Correctional Facility,Turney Center Industrial Complex,Tennessee,37140-4050
+Contract Facility,West Tennessee Detention Facility,Tennessee,38049
+State Correctional Facility,West Tennessee State Penitentiary,Tennessee,38041-1150
+Contract Facility,Whiteville Correctional Facility,Tennessee,38075
+State Correctional Facility,James V. Allred Unit,Texas,76367
+Contract Facility,Bartlett State Jail,Texas,76511
+Contract Facility,Eden Detention Center,Texas,76837
+State Correctional Facility,George Beto Unit,Texas,75880
+State Correctional Facility,William R. Boyd Unit,Texas,75860-2007
+Contract Facility,James Bradshaw State Jail,Texas,75653
+Contract Facility,Bridgeport Correctional Center,Texas,76426
+Contract Facility,Bridgeport Pre-Parole Transfer Facility,Texas,76426
+Contract Facility,Brooks County Detention Center,Texas,78355
+State Correctional Facility,Dolph Briscoe Unit,Texas,78017
+State Correctional Facility,"James ""Jay"" H. Byrd Unit",Texas,77320
+Contract Facility,Coastal Bend Detention Center,Texas,78380
+State Correctional Facility,Clemens Unit,Texas,77422
+State Correctional Facility,William P. Clements Unit,Texas,79107-9606
+Contract Facility,Cleveland Correctional Center,Texas,77328
+State Correctional Facility,H. H. Coffield Unit,Texas,75884
+State Correctional Facility,Buster Cole State Jail,Texas,75418
+State Correctional Facility,John B. Connally Unit,Texas,78119
+Transfer Facility,Cotulla Transfer Facility,Texas,78014
+State Correctional Facility,Christina Melton Crain Unit,Texas,76599-2999
+State Correctional Facility,Dalhart Unit,Texas,79022
+State Correctional Facility,Price Daniel Unit,Texas,79549
+State Correctional Facility,Darrington Unit,Texas,77583
+State Correctional Facility,James Lynaugh Unit,Texas,79735
+Contract Facility,Diboll Correctional Center,Texas,75941
+State Correctional Facility,Fabian Dale Dominguez State Jail,Texas,78252-2202
+State Correctional Facility,Rufus H. Duncan Geriatric Facility,Texas,75941
+Contract Facility,East Texas Multi-Use Facility,Texas,75652
+State Correctional Facility,Eastham Unit,Texas,75851
+Contract Facility,East Hidalgo Detention Center,Texas,78562
+State Correctional Facility,O.B. Ellis Unit,Texas,77343
+State Correctional Facility,"W. J. ""Jim"" Estelle Unit",Texas,77320-3320
+Contract Facility,"Sanders ""Sandy"" Estes Unit",Texas,76084
+State Correctional Facility,Jim Ferguson Unit,Texas,75852
+State Correctional Facility,Formby State Jail,Texas,79072
+Transfer Facility,Fort Stockton Transfer Facility,Texas,79735
+Transfer Facility,Garza East Transfer Facility,Texas,78102
+Transfer Facility,Garza West Transfer Facility,Texas,78102
+State Correctional Facility,Larry Gist State Jail,Texas,77705
+Contract Facility,Giles W. Dalby Correctional Facility,Texas,79356
+State Correctional Facility,Ernestine Glossbrenner Unit,Texas,78384
+Transfer Facility,Glen Ray Goodman Transfer Facility,Texas,75951
+State Correctional Facility,Thomas Goree Unit,Texas,77344
+Transfer Facility,Joe F. Gurney Transfer Facility,Texas,75803
+State Correctional Facility,Ellen Halbert Unit,Texas,78611
+Transfer Facility,J. W. Hamilton Unit,Texas,77807
+Transfer Facility,Thomas R. Havins Unit,Texas,76801
+State Correctional Facility,Dempsie Henley State Jail,Texas,77535
+State Correctional Facility,L.V. Hightower Unit,Texas,77535
+State Correctional Facility,Hilltop Unit,Texas,76598-2996
+State Correctional Facility,William P. Hobby Unit,Texas,76661
+State Correctional Facility,Jerry H. Hodge Unit,Texas,75785
+Transfer Facility,Reverend C.A. Holliday Transfer Facility,Texas,77320-8443
+State Medical Facility,Hospital Galveston,Texas,77555
+State Correctional Facility,Alfred D. Hughes Unit,Texas,76597
+State Correctional Facility,Huntsville Unit,Texas,77348
+State Correctional Facility,Hutchins State Jail,Texas,75241
+State Correctional Facility,Beauford H. Jester I Unit,Texas,77406
+State Correctional Facility,Beauford H. Jester III Unit,Texas,77406
+State Correctional Facility,Beauford H. Jester IV Unit,Texas,77406
+State Correctional Facility,Clyde M. Johnston Unit,Texas,75494
+State Correctional Facility,Rufe Jordan Unit,Texas,79065
+State Correctional Facility,Joe Kegans State Jail,Texas,77002
+Contract Facility,Kyle Correctional Center,Texas,78640
+State Correctional Facility,Richard P. LeBlanc Unit,Texas,77705
+State Correctional Facility,Gib Lewis Unit,Texas,75990
+Contract Facility,Houston Processing Center,Texas,77032
+Contract Facility,John R. Lindsey State Jail,Texas,76458
+Contract Facility,Lockhart Correctional Facility - Female,Texas,78644
+Contract Facility,Lockhart Correctional Facility,Texas,78644
+State Correctional Facility,Reynoldo V. Lopez State Jail,Texas,78542
+State Correctional Facility,O.L. Luther Unit,Texas,77868
+State Correctional Facility,Pam Lychner State Jail,Texas,77396
+Transfer Facility,Marlin Transfer Facility,Texas,76661-6588
+State Correctional Facility,William G. McConnell Unit,Texas,78102
+State Correctional Facility,Mark W. Michael Unit,Texas,75886
+Transfer Facility,John Middleton Transfer Facility,Texas,79601
+State Correctional Facility,John Montford Unit,Texas,79404
+Contract Facility,Billy Moore Correctional Center,Texas,75684
+Transfer Facility,Choice Moore Transfer Facility,Texas,75418
+State Correctional Facility,Mountain View Unit,Texas,76528
+State Correctional Facility,Dr. Lane Murray Unit,Texas,76596
+State Correctional Facility,Nathaniel J. Neal Unit,Texas,79107-9696
+State Correctional Facility,Joe Ney State Jail,Texas,78861-3812
+State Correctional Facility,Wallace Pack Unit,Texas,77868
+State Correctional Facility,Lucile Plane State Jail,Texas,77535
+State Correctional Facility,Allan B. Polunsky Unit,Texas,77351
+State Correctional Facility,Louis C. Powledge Unit,Texas,75803
+State Correctional Facility,W. F. Ramsey Unit,Texas,77583
+State Correctional Facility,T.L. Roach Unit,Texas,79201
+State Correctional Facility,French Robertson Unit,Texas,79601
+Transfer Facility,Jim Rudd Transfer Facility,Texas,79316
+Transfer Facility,San Saba Transfer Facility,Texas,76877
+State Correctional Facility,Rogelio Sanchez State Jail,Texas,79938-8456
+State Correctional Facility,Walker Sayle Unit,Texas,76424-7301
+State Correctional Facility,Wayne Scott Unit,Texas,77515
+State Correctional Facility,Manuel A. Segovia Unit,Texas,78542
+State Correctional Facility,Skyview Unit,Texas,75785
+State Correctional Facility,Preston E. Smith Unit,Texas,79331-1898
+State Correctional Facility,Clarence N. Stevenson Unit,Texas,77954
+State Correctional Facility,Mark W. Stiles Unit,Texas,77705
+State Correctional Facility,"A.M. ""Mac"" Stringfellow Unit",Texas,77583
+State Correctional Facility,Barry B. Telford Unit,Texas,75570
+State Correctional Facility,C.T. Terrell Unit,Texas,77583
+State Correctional Facility,Ruben M. Torres Unit,Texas,78861
+Contract Facility,T. Don Hutto Residential Center,Texas,76574
+State Correctional Facility,Travis County State Jail,Texas,78724
+Transfer Facility,Tulia Transfer Facility,Texas,79088
+State Correctional Facility,Carol S. Vance Unit,Texas,77406
+State Correctional Facility,Daniel Webster Wallace Unit,Texas,79512
+Transfer Facility,Dick Ware Transfer Facility,Texas,79512
+State Correctional Facility,J.B. Wheeler State Jail,Texas,79072
+Contract Facility,Willacy County State Jail,Texas,78580
+Contract Facility,Wiillacy Country Correctional Center,Texas,78580
+Contract Facility,Wiillacy Country Regional Detention Facility,Texas,78580
+State Correctional Facility,Linda Woodman State Jail,Texas,76528
+State Correctional Facility,John M. Wynne Unit,Texas,77349
+State Medical Facility,Carole S. Young Medical Facility,Texas,77539
+State Correctional Facility,Baten Intermediate Sanction Facility,Texas,79065
+State Correctional Facility,South Texas Intermediate Sanction Facility,Texas,77002
+State Correctional Facility,West Texas Intermediate Sanction Facility,Texas,79316
+Contract Facility,Reeves County Detention Complex (R1&R2),Texas,79772
+State Correctional Facility,Lunenburg Correctional Center,Virginia,23974
+Contract Facility,Big Spring Correctional Center,Texas,79720
+Contract Facility,Val Verde Correctional Facility,Texas,78840
+Contract Facility,South Texas Detention Complex,Texas,78061
+Contract Facility,Joe Corley Detention Facility,Texas,77301
+Contract Facility,Rio Grande Detention Center,Texas,78046
+Contract Facility,Webb County Detention Center,Texas,78046
+Contract Facility,Laredo Processing Center,Texas,78041
+Contract Facility,Mineral Wells Pre-Parole Transfer Facility,Texas,76067
+Contract Facility,Central Texas Detention Facility,Texas,78207
+Contract Facility,Karnes County Correctional Center,Texas,78118
+Contract Facility,Karnes County Civil Detention Center,Texas,78118
+State Correctional Facility,Utah State Prison - Draper,Utah,84020
+State Correctional Facility,Central Utah Correctional Facility - Gunnison,Utah,84634
+State Correctional Facility,Northern State Correctional Facility (NSCF) - Newport,Vermont,5855
+State Correctional Facility,Northwest State Correctional Facility (NWSCF) - Swanton,Vermont,5488
+State Correctional Facility,Chittenden Regional Correctional Facility (CRCF) - South Burlington,Vermont,5403
+State Correctional Facility,Northeast Correctional Complex (NERCF & CCWC) - St. Johnsbury,Vermont,5819
+State Correctional Facility,Marble Valley Regional Correctional Facility (MVRCF) - Rutland,Vermont,5701
+State Correctional Facility,Southeast State Correctional Facility (SESCF) - Windsor,Vermont,5089
+State Correctional Facility,Southern State Correctional Facility (SSCF) - Springfield,Vermont,5156
+State Correctional Facility,Augusta Correctional Center,Virginia,24430
+State Correctional Facility,Baskerville Correctional Center,Virginia,23915
+State Correctional Facility,Bland Correctional Center,Virginia,24315-9615
+State Correctional Facility,Buckingham Correctional Center,Virginia,23936
+State Correctional Facility,Brunswick Work Center,Virginia,23868
+State Correctional Facility,Caroline Correctional Unit #2,Virginia,23069
+State Correctional Facility,Central Virginia Correctional Unit #13,Virginia,23832
+State Correctional Facility,Coffeewood Correctional Center,Virginia,22729
+State Correctional Facility,Cold Springs Correctional Unit #10,Virginia,24440
+State Correctional Facility,Deerfield Correctional Center,Virginia,23829
+State Correctional Facility,Deep Meadow Correctional Center,Virginia,23160
+State Correctional Facility,Dillwyn Correctional Center,Virginia,23936
+State Correctional Facility,Fluvanna Correctional Center for Women,Virginia,22974
+State Correctional Facility,Green Rock Correctional Center,Virginia,24531
+State Correctional Facility,Greensville Correctional Center/Greensville Work Center,Virginia,23870-9614
+State Correctional Facility,Halifax Correctional Unit #23,Virginia,24558
+State Correctional Facility,Haynesville Correctional Center,Virginia,22472
+State Correctional Facility,Haynesville Correctional Unit #17,Virginia,22472
+State Correctional Facility,Indian Creek Correctional Center,Virginia,23328-6481
+State Correctional Facility,James River Work Center,Virginia,23160
+State Correctional Facility,Keen Mountain Correctional Center,Virginia,24631
+Contract Facility,Lawrenceville Correctional Center,Virginia,23868
+State Correctional Facility,Marion Correctional Center,Virginia,24354-3145
+State Correctional Facility,MCV Security Ward,Virginia,
+State Correctional Facility,Nottoway Correctional Center,Virginia,23922
+State Correctional Facility,Patrick Henry Correctional Unit #28,Virginia,24148
+State Correctional Facility,Pocahontas State Correctional Center,Virginia,24635-0518
+State Correctional Facility,Powhatan Correctional Center,Virginia,23160
+State Correctional Facility,Red Onion State Prison,Virginia,24279
+State Correctional Facility,River North Correctional Center,Virginia,24348
+State Correctional Facility,Rustburg Correctional Unit #9,Virginia,24588
+State Correctional Facility,St. Brides Correctional Center,Virginia,23328-6482
+State Correctional Facility,Sussex I State Prison,Virginia,23891-1111
+State Correctional Facility,Sussex II State Prison,Virginia,23891-2222
+State Correctional Facility,Virginia Correctional Center for Women,Virginia,23063
+State Correctional Facility,Wallens Ridge State Prison,Virginia,24219
+State Correctional Facility,Wise Correctional Unit,Virginia,24230
+State Correctional Facility,Airway Heights Corrections Center,Washington,99001-1899
+State Correctional Facility,Cedar Creek Corrections Center,Washington,98556-0037
+State Correctional Facility,Clallam Bay Corrections Center,Washington,98326
+State Correctional Facility,Coyote Ridge Corrections Center,Washington,99326
+State Correctional Facility,Larch Corrections Center,Washington,98675-9531
+State Correctional Facility,Mission Creek Corrections Center For Women,Washington,98528
+State Correctional Facility,Monroe Correctional Complex,Washington,98272
+State Correctional Facility,Olympic Corrections Center,Washington,98331
+State Correctional Facility,Stafford Creek Corrections Center,Washington,98520
+State Correctional Facility,Washington Corrections Center,Washington,98584
+State Correctional Facility,Washington Corrections Center For Women,Washington,98332-8300
+Contract Facility,Northwest Detention Center,Washington,98421
+State Correctional Facility,Washington State Penitentiary,Washington,99362
+Contract Facility,Correctional Treatment Facility,Washington D.C.,20003
+State Correctional Facility,Anthony Correctional Center,West Virginia,24986
+State Correctional Facility,Ohio County Correctional Complex,West Virginia,26003
+State Correctional Facility,Northern Correctional Facility,West Virginia,26041
+State Correctional Facility,Saint Marys Correctional Center,West Virginia,26170
+State Correctional Facility,Pruntytown Correctional Center,West Virginia,26354
+State Correctional Facility,Martinsburg Correctional Center,West Virginia,25401
+State Correctional Facility,Lakin Correctional Center,West Virginia,25287
+State Correctional Facility,West Virginia Corrections Academy,West Virginia,26351
+Work Camps / Work Release / Road Prisons,Huntington Work/Study Release Center,West Virginia,25701
+State Correctional Facility,Huttonsville Correctional Center,West Virginia,26273
+Work Camps / Work Release / Road Prisons,Charleston Work Release Center,West Virginia,25301-1319
+State Correctional Facility,Mount Olive Correctional Complex,West Virginia,25185
+State Correctional Facility,Denmar Correctional Center,West Virginia,24946
+State Correctional Facility,Beckley Correctional Center,West Virginia,25801
+State Correctional Facility,Chippewa Valley Correctional Treatment Facility,Wisconsin,54729
+State Correctional Facility,Columbia Correctional Institution,Wisconsin,53901-0950
+State Correctional Facility,Dodge Correctional Institution,Wisconsin,53963-0661
+State Correctional Facility,Fox Lake Correctional Institution,Wisconsin,53933-0147
+State Correctional Facility,Green Bay Correctional Institution,Wisconsin,54307-9033
+State Correctional Facility,Jackson Correctional Institution,Wisconsin,54615-0232
+State Correctional Facility,Kettle Moraine Correctional Institution,Wisconsin,53073
+State Correctional Facility,Milwaukee Secure Detention Facility,Wisconsin,53205-0740
+State Correctional Facility,New Lisbon Correctional Institution,Wisconsin,53950-2000
+State Correctional Facility,Oakhill Correctional Institution,Wisconsin,53575-0140
+State Correctional Facility,Oshkosh Correctional Institution,Wisconsin,54903-3530
+State Correctional Facility,Prairie du Chien Correctional Institution,Wisconsin,53821-6000
+State Correctional Facility,Racine Correctional Institution,Wisconsin,53177-1829
+State Correctional Facility,Racine Youthful Offender Correctional Facility,Wisconsin,53404-0001
+State Correctional Facility,Redgranite Correctional Institution,Wisconsin,54970
+State Correctional Facility,Stanley Correctional Institution,Wisconsin,54768-6500
+Transition Center,Sturtevant Transitional Facility,Wisconsin,53177
+State Correctional Facility,Taycheedah Correctional Institution,Wisconsin,54936-1947
+State Correctional Facility,Waupun Correctional Institution,Wisconsin,53963-0351
+State Correctional Facility,Wisconsin Secure Program Facility,Wisconsin,53805-0900
+State Correctional Facility,Black River Correctional Center,Wisconsin,54615-6426
+State Medical Facility,Drug Abuse Correctional Center,Wisconsin,54985-0036
+State Correctional Facility,Felmers O. Chaney Correctional Center,Wisconsin,53210
+State Correctional Facility,Flambeau Correctional Center,Wisconsin,54530-9400
+State Correctional Facility,Gordon Correctional Center,Wisconsin,54838
+State Correctional Facility,John C. Burke Correctional Center,Wisconsin,53963-0900
+State Correctional Facility,Kenosha Correctional Center,Wisconsin,53143
+State Correctional Facility,Marshall E. Sherrer Correctional Center,Wisconsin,53205-2596
+State Correctional Facility,McNaughton Correctional Center,Wisconsin,54539-9558
+State Correctional Facility,Oregon Correctional Center,Wisconsin,53575-0025
+State Correctional Facility,Sanger B. Powers Correctional Center,Wisconsin,54155-9300
+State Correctional Facility,St. Croix Correctional Center,Wisconsin,54017-0036
+State Correctional Facility,Thompson Correctional Center,Wisconsin,53531-9562
+State Correctional Facility,Winnebago Correctional Center,Wisconsin,54985-0128
+State Correctional Facility,Robert E. Ellsworth Correctional Center,Wisconsin,53182-9408
+State Correctional Facility,Milwaukee Women's Correctional Center,Wisconsin,53212
+State Correctional Facility,Copper Lake School,Wisconsin,54442
+State Correctional Facility,Lincoln Hillls School for Boys,Wisconsin,54442
+State Correctional Facility,Wyoming State Penitentiary,Wyoming,82301-0400
+State Correctional Facility,Wyoming Women's Center,Wyoming,82225
+Work Camps / Work Release / Road Prisons,Wyoming Honor Farm,Wyoming,82501-9411
+Work Camps / Work Release / Road Prisons,Wyoming Honor Conservation Camp & Boot Camp,Wyoming,82701-0160
+State Correctional Facility,Wyoming Medium Correctional Institution,Wyoming,82240
