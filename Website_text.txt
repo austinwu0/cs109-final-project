@@ -1,0 +1,47 @@
+Motivation
+As a group of four seniors who are all heading across the United States after graduation, and entering the real world, a pressing issue on our minds has been finding our first apartment or house in our new city.  We all want to find a place to call home, while also making a sound financial decision. Where in the city should we live? Should we rent? Should we buy? 
+
+We are also interested in learning more about our new homes and how the composition of the community and local economy affect the financial value of real estate in our areas. Our new cities will have neighborhoods with their own distinct character, from the posh, expensive district to the gritty, up and coming . We are interested in how the fabric of these communities in terms of demographics
+
+To look deeper into these questions, we decided to look at Price-to-Rent (PtR) ratios of different areas of the United States, which is the median existing home price divided by the average annual rent you would pay for a comparable home in the area. This is an informative metric for whether to buy or rent a property. If PtR ratios are very high in an area, then renting is likely a better deal. If PtR ratios are very low, then buying a home is probably the way to go. We gathered a variety of data about these communities from demographic data, to economic data to 
+
+Objectives
+We had questions that we wanted to answer:
+    What do Price-to-Rent ratios look like across the country?
+    What demographic and economic features in the community are associated with Price-to-Rent ratios?
+    Can we incorporate these features into a model and predict Price-to-Rent ratios for an area?
+    Where does our model perform the best? Where does our model perform the worst? 
+
+
+Approach
+We used Zillow, a popular real estate database, to gather PtR ratios for zipcodes across the country. To find demographic data, we took data from the 2010 Census on zipcodes across the US. This data information on demographics such as sex, age, and race. It also gave us information on household  composition: the percentage of households that have single male and female residents, the percentage of households with single mothers, percentage of households that were family households or non-family households, the percentage of households that had children or seniors, etc. We also retrieved business data from the census. This data was only available at the county level, so we had to map these values down to individual zipcodes. Finally we integrated jail and prison data. 
+
+With this data, we ran a linear regression on zipcode 2015 PtR ratios with the associated features that we collected for each corresponding zipcode, as well as 2011 PtR ratios. We wanted to see which 
+
+Analysis
+
+
+
+
+
+
+
+Outline
+
+National statistics - Mean, max min. Barplot?
+Histogram 
+
+US map visualization of response (look at some interesting areas? Places with a lot of variance)
+
+Visualize predictors v. response variable 
+Visualize predictors that we ultimately select in terms of categories
+Compare regression coefficients of predictors that are of the same category. 
+
+Plot model vs. baseline. 
+Plot model/baseline vs actual
+SHOW RMSE 
+
+Visualize predictors on US map alongside response
+Visualize how well our regression fits the zipcodes geographically (residuals)
+
+
