@@ -103,16 +103,17 @@
         var fs_2 = 0;
         $("#back").fadeIn(fs);
         
-        var ratioDelta_Vis = new TwoVis(d3.select("#twovis"), "ratio_pct_delta", "Price-to-Rent Ratio % Change from 2011 to 2015", "t");
+        //var ratioDelta_Vis = new TwoVis(d3.select("#twovis"), "ratio_pct_delta", "Price-to-Rent Ratio % Change from 2011 to 2015", "t");
+        var ratioDelta_Vis = new TwoVis(d3.select("#twovis"), "ratio_pct_delta_new", "Price-to-Rent Ratio % Change from 2011 to 2015", "t");
 
-        var h2011_Vis = new OneVis(d3.select("#onevis"), "houses_2011_3", "House Prices 2011", "t");
-        var h2015_Vis = new OneVis(d3.select("#onevis"), "h_agg_2015_adj", "House Prices 2015", "t");
+        var h2011_Vis = new OneVis(d3.select("#onevis"), "h_agg_2011_new", "House Prices 2011", "t");
+        var h2015_Vis = new OneVis(d3.select("#onevis"), "h_agg_2015_adj_new", "House Prices 2015", "t");
 
-        var r2011_Vis = new OneVis(d3.select("#onevis"), "r_agg_2011", "Rental Prices 2011", "t");
-        var r2015_Vis = new OneVis(d3.select("#onevis"), "r_agg_2015_adj", "Rental Prices 2015", "t");
+        var r2011_Vis = new OneVis(d3.select("#onevis"), "r_agg_2011_new", "Rental Prices 2011", "t");
+        var r2015_Vis = new OneVis(d3.select("#onevis"), "r_agg_2015_adj_new", "Rental Prices 2015", "t");
         
-        var hrRatio2011_Vis = new OneVis(d3.select("#onevis"), "ratio_2011", "Price-to-Rent Ratio 2011", "t");
-        var hrRatio2015_Vis = new OneVis(d3.select("#onevis"), "ratio_2015", "Price-to-Rent Ratio 2015", "t");
+        var hrRatio2011_Vis = new OneVis(d3.select("#onevis"), "ratio_2011_new", "Price-to-Rent Ratio 2011", "t");
+        var hrRatio2015_Vis = new OneVis(d3.select("#onevis"), "ratio_2015_new", "Price-to-Rent Ratio 2015", "t");
 
         (function($) {
           $.fn.goTo = function() {
