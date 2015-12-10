@@ -24,12 +24,8 @@
     <link rel="stylesheet" type="text/css" href="css/myStyle.css">
 
     <!-- add own scripts-->
-    <script src = "js/worldvis.js"></script>
-    <script src = "js/countryvis_usage.js"></script>
-    <script src = "js/countryvis_compare.js"></script>
-    <script src = "js/circlevis.js"></script>
-    <script src = "js/temperaturevis.js"></script>
-    <script src = "js/sectorvis.js"></script>
+    <script src = "js/onevis.js"></script>
+    <script src = "js/twovis.js"></script>
 
 </head>
 <body>
@@ -40,9 +36,9 @@
             <li><a id="nav_approach">APPROACH</a></li>-->
             <li><a id="nav_analysis">ANALYSIS</a></li>
             <!--<li><a href="visualization.html#chapter_one" id="nav2">VISUALIZATION</a></li>-->
-            <li><a href="https://github.com/austinwu0/cs109-final-project" >GIT</a></li>
+            <li><a href="https://github.com/austinwu0/cs109-final-project" target="_blank">GIT</a></li>
             <!--<li><a href="https://docs.google.com/document/d/1CMFDlRChkY_jYVbcKnQ7r_KYUoOQrEGPPxC4wvye3mQ" id="nav5">PROCESS BOOK</a></li>-->
-            <li><a href="http://youtu.be/zex2eVBCnZ4" >VIDEO</a></li>
+            <li><a >VIDEO</a></li>
           </ul>
         </div>
     <div class="div1" id="back">
@@ -51,9 +47,9 @@
     </div>
 
     <div class="col-md-12">
-      <p class="heading-begin" id="1">MODELING HOUSE PRICES</p>
+      <p class="heading-begin" id="1">MODELING HOUSE AND RENT PRICES</p>
       <!--<p class="heading-begin" id="1">M&nbspO&nbspD&nbspE&nbspL&nbspI&nbspN&nbspG H&nbspO&nbspU&nbspS&nbspE P&nbspR&nbspI&nbspC&nbspE&nbspS </p>-->
-      <p class="heading-middle" id="2">on neighborhood factors</p>
+      <p class="heading-middle" id="2">on neighborhood factors across the US</p>
       <a><p id="start_button" class="temp_title_begin">START</p></a>
       <a href="visualization.html#chapter_one"><p class="heading-end"></p></a>
     </div>
@@ -89,56 +85,34 @@
 
     <div class="col-md-7" id="analysis">
       <p class="title_large emphasis">Analysis</p>
-      <p class="title2">
-        Start with exploratory analysis.
-      </p>
+      <p class="title emphasis">Exploratory Analysis</p>
+      <p class="title2">Here is one piece of exploratory data analysis. 
+        <br>
+        Note: Scroll up on any map to zoom in and scroll down to zoom out.</p>
+
+      <div class="graph" id="twovis"><br></div>
+      <div class="graph" id="onevis"><br></div>
+      
     </div>
 
-
-
-
-
-    <div class="col-md-12"  id="temperatures">
-    
-      <div class="col-md-4" id="title3"><p class="title3"><text class="temp_title">RISING TEMPERATURES</text><br><br>Multiple lines of scientific evidence show that temperatures are rising. This graph compares average annual global surface temperature relative to the average temperature from 1951-1980. The 10 warmest years in the past 135 years have all occurred since 2000, with the exception of 1998. 2014 is ranked the warmest on record. (Data from NASA.)</p></div>
-      <div class="col-md-8" id="tempVis">
-          <p class="tooltip_temps">Here is where we will say something.</p>
-            </div>
-    </div>
-    <div class="col-md-12" style="background-color:#F8F8F8">
-      <p class="title4" id="title4">The effects of rising temperatures aren’t waiting for some far-flung future.</p>
-      <p class="temp_title_2">THEY'RE HAPPENING NOW</p>
-
-    </div>
-    <div class="effects">
-      <div class="hover1" id="hover1"><img class="issues_cover" id="hover1_img" src="images/ice2.jpg"><p class="hover_text" id="hover1_text"><text class="hover_heading">MELTING ICE CAPS</text><br><br>Mountain glaciers, ice sheets covering West Antarctica and Greenland, and Arctic sea ice are melting at alarming rates, causing an upwards trend in the sea levels in the past century.</p></div><div class="hover1" id="hover2"><img class="issues_cover" id="hover2_img" src="images/migration.jpg"><p class="hover_text" id="hover2_text"><text class="hover_heading">THREAT TO BIODIVERSITY</text><br><br>More than 1 million species are facing extinction due to global warming and its negative impact on ecosystems and migration patterns.</p></div><div class="hover1" id="hover3"><img class="issues_cover" id="hover3_img" src="images/hurricane.jpg"><p class="hover_text" id="hover3_text"><text class="hover_heading">NATURAL DISASTERS</text><br><br>There has been a 100% increase in both the duration and intensity of natural calamities occurring on earth since the 1970’s, particularly tropical storms and hurricanes, with a possible link to the increased amount of carbon dioxide in the earth’s atmosphere.</p></div><div class="hover1" id="hover4"><img class="issues_cover" id="hover4_img" src="images/manhattan1.jpg"><p class="hover_text" id="hover4_text"><text class="hover_heading">EFFECT ON HUMAN LIVES</text><br><br>Global warming also impacts humans by loss of habitat from inundation and by threatening food security by decreasing crop yields. </p></div>
-
-    </div>
-    <div class="col-md-12" style="background-color:#F8F8F8">  
-      <p class="title4" id="title4">The Intergovernmental Panel on Climate Change (IPCC) reported in 2014 that scientists were more than 95% certain that <br>most of global warming is caused by <text class="emphasis_1">increasing concentrations of greenhouse gases</text> and <text class="emphasis_1">other human activities.</text></p>
-      <p class="title5">This visualization will explore exactly that.</p>
-      <p class="temp_title_3">READY?</p>
-      <a href="visualization.html#chapter_one"><p class="temp_title_4">LAUNCH VISUALIZATION</p></a>
- 
-    </div>
   
   <script>
         
         //to fade things in
-        var fs = 1000;
+        var fs = 1500;
         var fs_2 = 0;
         $("#back").fadeIn(fs);
-        initVis();
-            
-            // call this function after Data is loaded, reformatted and bound to the variables
-            function initVis(){
-                //temperature data
-                var temperature_array = [-23,   -15,  -18,  -21,  -29,  -27,  -26,  -33,  -21,  -11,  -34,  -27,  -32,  -36,  -33,  -26,  -19,  -19,  -32,  -21,  -16,  -21,  -31,  -37,  -45,  -31,  -27,  -43,  -44,  -48,  -47,  -45,  -42,  -40,  -24,  -17,  -37,  -45,  -32,  -30,  -28,  -21,  -30,  -27,  -25,  -23,  -11,  -20,  -17,  -32,  -13,  -8,   -11,  -26,  -10,  -16,  -11,  2,  5,  0,  6,  7,  5,  5,  13,   0,  -8,   -5,   -11,  -12,  -19,  -7,   1,  8,  -12,  -13,  -18,  3,  5,  3,  -4,   6,  4,  8,  -20,  -10,  -4,   -1,   -5,   6,  4,  -6,   2,  16,   -7,   -1,   -12,  15,   5,  12,   23,   28,   9,  27,   12,   8,  14,   28,   35,   24,   39,   38,   19,   21,   28,   43,   32,   45,   61,   40,   40,   52,   61,   60,   51,   65,   59,   62,   49,   59,   66,   55,   57,   60,   67];
-                //Instantiate Vis Objects
-                
-                var temperature_vis = new TempVis(d3.select("#tempVis"), temperature_array);
-            }
+        
+        var ratioDelta_Vis = new TwoVis(d3.select("#twovis"), "ratio_pct_delta", "Price-to-Rent Ratio % Change from 2011 to 2015", "b");
 
+        var h2011_Vis = new OneVis(d3.select("#onevis"), "houses_2011_3", "House Prices 2011", "b");
+        var h2015_Vis = new OneVis(d3.select("#onevis"), "h_agg_2015_adj", "House Prices 2015", "b");
+
+        var r2011_Vis = new OneVis(d3.select("#onevis"), "r_agg_2011", "Rental Prices 2011", "b");
+        var r2015_Vis = new OneVis(d3.select("#onevis"), "r_agg_2015_adj", "Rental Prices 2015", "b");
+        
+        var hrRatio2011_Vis = new OneVis(d3.select("#onevis"), "ratio_2011", "Price-to-Rent Ratio 2011", "b");
+        var hrRatio2015_Vis = new OneVis(d3.select("#onevis"), "ratio_2015", "Price-to-Rent Ratio 2015", "b");
 
         (function($) {
           $.fn.goTo = function() {
@@ -160,18 +134,13 @@
           $('#motivation').goTo();
           console.log("clicked")
         });
-        
-        /*var nav_objectives = document.getElementById("nav_objectives");
-        nav_objectives.addEventListener("click", function() { 
-          $('#objectives').goTo();
-          console.log("clicked")
-        });*/
 
         var nav_analysis = document.getElementById("nav_analysis");
         nav_analysis.addEventListener("click", function() { 
           $('#analysis').goTo();
           console.log("clicked")
         });
+
         
     </script>
 </body>

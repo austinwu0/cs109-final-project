@@ -877,3 +877,153 @@ ul {
         background-color: rgba(245,245,245,.9);
         font-size: 10px;
 }
+
+
+/***************** NEW VISUALIZATIONS FOR HOUSE PRICES *********************/
+
+.counties {
+  fill: none;
+  stroke: #8C8C8C;
+  stroke-width: 0.1;
+}
+
+.states {
+  fill: none;
+  stroke: #8C8C8C;
+  stroke-width:1;
+  /*stroke-linejoin: round;*/
+}
+
+.q0-9 { fill:rgb(237,243,250); }
+.q1-9 { fill:rgb(222,235,247); }
+.q2-9 { fill:rgb(198,219,239); }
+.q3-9 { fill:rgb(158,202,225); }
+.q4-9 { fill:rgb(107,174,214); }
+.q5-9 { fill:rgb(66,146,198); }
+.q6-9 { fill:rgb(33,113,181); }
+.q7-9 { fill:rgb(8,81,156); }
+.q8-9 { fill:rgb(8,48,107); }
+
+.b0-9 { fill:#f7fbff; }
+.b1-9 { fill:#deebf7; }
+.b2-9 { fill:#c6dbef; }
+.b3-9 { fill:#9ecae1; }
+.b4-9 { fill:#6baed6; }
+.b5-9 { fill:#4292c6; }
+.b6-9 { fill:#2171b5; }
+.b7-9 { fill:#08519c; }
+.b8-9 { fill:#08306b; }
+
+.y0-9 { fill:#fff7ec; }
+.y1-9 { fill:#fee8c8; }
+.y2-9 { fill:#fdd49e; }
+.y3-9 { fill:#fdbb84; }
+.y4-9 { fill:#fc8d59; }
+.y5-9 { fill:#ef6548; }
+.y6-9 { fill:#d7301f; }
+.y7-9 { fill:#b30000; }
+.y8-9 { fill:#7f0000; }
+
+.r0-9 { fill:#fff5f0; }
+.r1-9 { fill:#fee0d2; }
+.r2-9 { fill:#fcbba1; }
+.r3-9 { fill:#fc9272; }
+.r4-9 { fill:#fb6a4a; }
+.r5-9 { fill:#ef3b2c; }
+.r6-9 { fill:#cb181d; }
+.r7-9 { fill:#a50f15; }
+.r8-9 { fill:#67000d; }
+
+.g0-9 { fill:#f7fcf5; }
+.g1-9 { fill:#e5f5e0; }
+.g2-9 { fill:#c7e9c0; }
+.g3-9 { fill:#a1d99b; }
+.g4-9 { fill:#74c476; }
+.g5-9 { fill:#41ab5d; }
+.g6-9 { fill:#238b45; }
+.g7-9 { fill:#006d2c; }
+.g8-9 { fill:#00441b; }
+
+.p0-9 { fill:#fcfbfd; }
+.p1-9 { fill:#efedf5; }
+.p2-9 { fill:#dadaeb; }
+.p3-9 { fill:#bcbddc; }
+.p4-9 { fill:#9e9ac8; }
+.p5-9 { fill:#807dba; }
+.p6-9 { fill:#6a51a3; }
+.p7-9 { fill:#54278f; }
+.p8-9 { fill:#3f007d; }
+
+.t0-9 { fill:#DFF2F1; }
+.t1-9 { fill:#BFE6E3; }
+.t2-9 { fill:#A0D9D5; }
+.t3-9 { fill:#80CDC8; }
+.t4-9 { fill:#60C1BA; }
+.t5-9 { fill:#51BAB3; }
+.t6-9 { fill:#41B4AC; }
+.t7-9 { fill:#21A89E; }
+.t8-9 { fill:#029C91; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.q0-9 { fill:#99BFC3; }
+.q1-9 { fill:#8BB6BB; }
+.q2-9 { fill:#7CACB3; }
+.q3-9 { fill:#6EA3AA; }
+.q4-9 { fill:#5F9AA2; }
+.q5-9 { fill:#428891; }
+.q6-9 { fill:#347F88; }
+.q7-9 { fill:#257680; }
+.q8-9 { fill:#176D78; }*/
+
+.graph {
+
+}
+
+.hover {
+    fill: orange;
+}
+
+div.tooltip {   
+    position: absolute;         
+    text-align: center;         
+    width: 90px;                    
+    height: 40px;                   
+    padding: 5px;               
+    font: 12px sans-serif;      
+    background: black; 
+    border: 0px;                
+    pointer-events: none;  
+    color: white;         
+}
