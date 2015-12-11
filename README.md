@@ -6,11 +6,8 @@ Austin Wu
 Cody He  
 Eliza Hale  
 
-text.csv @ https://drive.google.com/open?id=0B3_rTmBwbAgqUzB1UmN2cUgzVGM  
+Website at: http://azhong1.github.io/cs109/  
+Video at: https://vimeo.com/148580765  
 
-To access the website
-
-1. Navigate to the "website" directory in your terminal.
-2. Run this command: "python -m SimpleHTTPServer"
-3. The terminal will tell you which port the website is being hosted on (usually 8000). Open a new tab on your browser to localhost: port number.
-
+Directions:  
+Our Process Book is "Process Book.ipynb”. All of our data is found in the folder called data. You can find additional calculations in “Yelp Modeling”, “Feature Selection and Modeling”, and “Data Wrangling”. The functions countyMedian.py and addZipCodes.py, which we wrote and used to map zip codes to counties and vice versa, are included as folders in the main directory. We used one “weird” python library, called patsy (it generates design matrices) but it should import without any installations necessary.
